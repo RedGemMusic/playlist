@@ -23,7 +23,7 @@ def get_track_length(filepath):
     return "Unknown"
 
 def get_metadata(filepath):
-    """Extract artist, title, album, and album artist from file metadata"""
+    """Extract artist, title, album, album artist, disc, and track from file metadata"""
     try:
         audio = File(filepath)
         if audio:
@@ -31,6 +31,8 @@ def get_metadata(filepath):
             title = audio.get('title', [None])[0] if isinstance(audio.get('title'), list) else audio.get('title')
             album = audio.get('album', [None])[0] if isinstance(audio.get('album'), list) else audio.get('album')
             album_artist = audio.get('albumartist', [None])[0] if isinstance(audio.get('albumartist'), list) else audio.get('albumartist')
+            disc = audio.get('discnumber', [None])[0] if isinstance(audio.get('discnumber'), list) else audio.get('discnumber')
+            track = audio.get('tracknumber', [None])[0] if isinstance(audio.get('tracknumber'), list) else audio.get('tracknumber')
             
             # Handle different tag formats
             if artist is None:
@@ -41,6 +43,16 @@ def get_metadata(filepath):
                 album = audio.get('TALB', [None])[0] if 'TALB' in audio else None
             if album_artist is None:
                 album_artist = audio.get('TPE2', [None])[0] if 'TPE2' in audio else None
+            if disc is None:
+                disc = audio.get('TPOS', [None])[0] if 'TPOS' in audio else None
+            if track is None:
+                track = audio.get('TRCK', [None])[0] if 'TRCK' in audio else None
+            
+            # Clean disc/track (they often come as "1/2" format, we want just the first number)
+            if disc and '/' in str(disc):
+                disc = str(disc).split('/')[0]
+            if track and '/' in str(track):
+                track = str(track).split('/')[0]
             
             # Fallbacks
             if not title:
@@ -51,12 +63,16 @@ def get_metadata(filepath):
                 album = ""
             if not album_artist:
                 album_artist = ""
+            if not disc:
+                disc = "1"
+            if not track:
+                track = "0"
             
-            return str(artist), str(title), str(album), str(album_artist)
+            return str(artist), str(title), str(album), str(album_artist), str(disc), str(track)
     except Exception as e:
         print(f"Error reading metadata from {filepath}: {e}")
     
-    return "Unknown Artist", Path(filepath).stem, "", ""
+    return "Unknown Artist", Path(filepath).stem, "", "", "1", "0"
 
 def scan_music_library(root_path):
     """Recursively scan directory for music files"""
@@ -69,9 +85,9 @@ def scan_music_library(root_path):
         for file in files:
             if Path(file).suffix.lower() in music_extensions:
                 filepath = os.path.join(root, file)
-                artist, title, album, album_artist = get_metadata(filepath)
+                artist, title, album, album_artist, disc, track = get_metadata(filepath)
                 length = get_track_length(filepath)
-                music_data.append([artist, title, length, album, album_artist])
+                music_data.append([artist, title, length, album, album_artist, disc, track])
                 
                 if len(music_data) % 100 == 0:
                     print(f"Processed {len(music_data)} files...")
@@ -83,7 +99,7 @@ def write_csv(data, output_path):
     """Write music data to CSV file"""
     with open(output_path, 'w', newline='', encoding='utf-8') as f:
         writer = csv.writer(f, delimiter=',')
-        writer.writerow(['Artist', 'Title', 'Length', 'Album', 'AlbumArtist'])
+        writer.writerow(['Artist', 'Title', 'Length', 'Album', 'AlbumArtist', 'Disc', 'Track'])
         writer.writerows(data)
     print(f"CSV written to {output_path}")
 
@@ -102,7 +118,7 @@ def main():
         print("\nDone! Now pushing to GitHub...")
         
         # Git commands
-        os.system('git add music_library.csv')
+        os.system('git add -A')
         os.system('git commit -m "Update music library"')
         os.system('git push')
         print("Pushed to GitHub!")

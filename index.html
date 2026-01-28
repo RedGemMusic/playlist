@@ -140,10 +140,12 @@
                 musicData = rows
                     .filter(row => row.trim())
                     .map(row => {
-						const [artist, title, length, album, albumArtist] = parseCSVRow(row);
-						return { artist, title, length, album, albumArtist };
+						const [artist, title, length, album, albumArtist, disc, track] = parseCSVRow(row);
+						return { artist, title, length, album, albumArtist, disc: parseInt(disc) || 1, track: parseInt(track) || 0 };
                     });
                 
+				sortMusicData();
+				
                 filteredData = [...musicData];
                 updateDisplay();
                 updateInfo();
@@ -152,6 +154,26 @@
                     '<tr><td colspan="3" class="no-results">Error loading music library. Make sure music_library.csv is in the same directory.</td></tr>';
             }
         }
+
+		// Sort music data
+		function sortMusicData() {
+			musicData.sort((a, b) => {
+				// Sort by Album first
+				if (a.album !== b.album) {
+					return a.album.localeCompare(b.album);
+				}
+				// Then by Disc
+				if (a.disc !== b.disc) {
+					return a.disc - b.disc;
+				}
+				// Then by Track
+				if (a.track !== b.track) {
+					return a.track - b.track;
+				}
+				// Finally by Title
+				return a.title.localeCompare(b.title);
+			});
+		}
 
         // Parse CSV row handling quoted fields
         function parseCSVRow(row) {
