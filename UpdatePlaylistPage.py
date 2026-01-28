@@ -23,30 +23,40 @@ def get_track_length(filepath):
     return "Unknown"
 
 def get_metadata(filepath):
-    """Extract artist and title from file metadata"""
+    """Extract artist, title, album, and album artist from file metadata"""
     try:
         audio = File(filepath)
         if audio:
             artist = audio.get('artist', [None])[0] if isinstance(audio.get('artist'), list) else audio.get('artist')
             title = audio.get('title', [None])[0] if isinstance(audio.get('title'), list) else audio.get('title')
+            album = audio.get('album', [None])[0] if isinstance(audio.get('album'), list) else audio.get('album')
+            album_artist = audio.get('albumartist', [None])[0] if isinstance(audio.get('albumartist'), list) else audio.get('albumartist')
             
             # Handle different tag formats
             if artist is None:
                 artist = audio.get('TPE1', [None])[0] if 'TPE1' in audio else None
             if title is None:
                 title = audio.get('TIT2', [None])[0] if 'TIT2' in audio else None
+            if album is None:
+                album = audio.get('TALB', [None])[0] if 'TALB' in audio else None
+            if album_artist is None:
+                album_artist = audio.get('TPE2', [None])[0] if 'TPE2' in audio else None
             
-            # Fallback to filename if no metadata
+            # Fallbacks
             if not title:
                 title = Path(filepath).stem
             if not artist:
                 artist = "Unknown Artist"
+            if not album:
+                album = ""
+            if not album_artist:
+                album_artist = ""
             
-            return str(artist), str(title)
+            return str(artist), str(title), str(album), str(album_artist)
     except Exception as e:
         print(f"Error reading metadata from {filepath}: {e}")
     
-    return "Unknown Artist", Path(filepath).stem
+    return "Unknown Artist", Path(filepath).stem, "", ""
 
 def scan_music_library(root_path):
     """Recursively scan directory for music files"""
@@ -59,9 +69,9 @@ def scan_music_library(root_path):
         for file in files:
             if Path(file).suffix.lower() in music_extensions:
                 filepath = os.path.join(root, file)
-                artist, title = get_metadata(filepath)
+                artist, title, album, album_artist = get_metadata(filepath)
                 length = get_track_length(filepath)
-                music_data.append([artist, title, length])
+                music_data.append([artist, title, length, album, album_artist])
                 
                 if len(music_data) % 100 == 0:
                     print(f"Processed {len(music_data)} files...")
@@ -72,8 +82,8 @@ def scan_music_library(root_path):
 def write_csv(data, output_path):
     """Write music data to CSV file"""
     with open(output_path, 'w', newline='', encoding='utf-8') as f:
-        writer = csv.writer(f)
-        writer.writerow(['Artist', 'Title', 'Length'])
+        writer = csv.writer(f, delimiter=',')
+        writer.writerow(['Artist', 'Title', 'Length', 'Album', 'AlbumArtist'])
         writer.writerows(data)
     print(f"CSV written to {output_path}")
 

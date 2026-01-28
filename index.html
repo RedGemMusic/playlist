@@ -106,7 +106,7 @@
             type="text" 
             class="search-box" 
             id="searchInput" 
-            placeholder="Search by artist, title, or length..."
+            placeholder="Search by game, title, or length..."
         >
         
         <div class="info" id="info">Loading...</div>
@@ -140,8 +140,8 @@
                 musicData = rows
                     .filter(row => row.trim())
                     .map(row => {
-                        const [artist, title, length] = parseCSVRow(row);
-                        return { artist, title, length };
+						const [artist, title, length, album, albumArtist] = parseCSVRow(row);
+						return { artist, title, length, album, albumArtist };
                     });
                 
                 filteredData = [...musicData];
@@ -183,11 +183,13 @@
             if (!term) {
                 filteredData = [...musicData];
             } else {
-                filteredData = musicData.filter(track => 
-                    track.artist.toLowerCase().includes(term) ||
-                    track.title.toLowerCase().includes(term) ||
-                    track.length.toLowerCase().includes(term)
-                );
+				filteredData = musicData.filter(track => 
+					track.artist.toLowerCase().includes(term) ||
+					track.title.toLowerCase().includes(term) ||
+					track.length.toLowerCase().includes(term) ||
+					track.album.toLowerCase().includes(term) ||
+					track.albumArtist.toLowerCase().includes(term)
+				);
             }
             
             updateDisplay();
