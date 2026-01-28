@@ -724,7 +724,7 @@ Last Legend 5,The Realm Undiscovered,2:06
 Last Legend 5,Seeking Luminescence,1:30
 Last Legend 5,The Conclusive Fight,5:41
 Last Legend 5,The Final Fight,3:26
-Last Legend 5,Beloved Companions,7:20
+Last Legend 5,Beloved Companions,3:42
 Last Legend 5,The Heroes of Daybreak,2:07
 Last Legend 5,Last Legend,3:30
 Last Legend 5,A Beginning Anew,8:12
@@ -1209,15 +1209,15 @@ Animal Crossing,5 PM,2:24
 Animal Crossing,9 PM,2:43
 Animal Crossing,Title,2:51
 Animal Crossing,Rainy Day,1:49
-Animal Crossing: City Folk,Town Hall (Pelly),1:16
+Animal Crossing: City Folk,Town Hall (Pelly),1:15
 Animal Crossing: City Folk,Title,1:06
-Animal Crossing: City Folk,The Roost,1:15
-Animal Crossing: City Folk,1 AM (Normal),1:05
-Animal Crossing: City Folk,2 AM (Normal),1:32
-Animal Crossing: City Folk,9 AM (Normal),0:52
-Animal Crossing: City Folk,1 PM (Normal),1:00
-Animal Crossing: City Folk,8 PM (Normal),1:22
-Animal Crossing: City Folk,The City (Day),1:06
+Animal Crossing: City Folk,The Roost,1:16
+Animal Crossing: City Folk,1 AM (Normal),1:36
+Animal Crossing: City Folk,2 AM (Normal),2:30
+Animal Crossing: City Folk,9 AM (Normal),1:17
+Animal Crossing: City Folk,1 PM (Normal),1:47
+Animal Crossing: City Folk,8 PM (Normal),2:35
+Animal Crossing: City Folk,The City (Day),1:38
 Animal Crossing: New Horizons,Opening Theme,1:01
 Animal Crossing: New Horizons,8:00 AM (Sunny),2:45
 Animal Crossing: New Horizons,Mystery Island Tour: Noon (Sunny),2:11
@@ -1726,7 +1726,7 @@ Fire Emblem: Three Houses,Recollection and Regret,2:43
 Fire Emblem: Three Houses,Somewhere to Belong,3:22
 Fire Emblem: Three Houses,Between Heaven and Earth (Rain),5:57
 Fire Emblem: Three Houses,A Vow Remembered,3:21
-Fire Emblem: Three Houses,The Apex of the World (Rain),9:08
+Fire Emblem: Three Houses,The Apex of the World (Rain),4:33
 Fire Emblem: Three Houses,God-Shattering Star (Rain),7:58
 Fire Emblem: Three Houses,The Officers Academy,1:21
 Fire Emblem: Three Houses,A Funeral of Flowers (Rain),7:17
@@ -2823,6 +2823,9 @@ Sonic Adventure 2,Chao Karate - Fight,1:19
 Sonic Adventure 2,Chao Garden - Normal Garden,3:26
 Sonic Adventure 2,Chao Garden - Hero Garden,3:54
 Sonic Adventure 2,Extra Stage - Green Hill,1:41
+Sonic Blast Man,Town,1:44
+Sonic Blast Man,Factory,2:01
+Sonic Blast Man,Laboratory,1:55
 Sonic Blastman 2,City,4:03
 Sonic Blastman 2,Plane,3:06
 Sonic Blastman 2,Port Town,2:19
@@ -2879,11 +2882,152 @@ Sonic the Hedgehog Spinball,The Machine,7:54
 Sonic the Hedgehog Spinball,Toxic Caves,2:32
 Sonic the Hedgehog Spinball,Boss,3:41
 Sonic the Hedgehog Spinball,Bonus Stage,5:50
+Spyro 2: Ripto's Rage!,Ocean Speedway,2:07
+Spyro 2: Ripto's Rage!,Crystal Glacier,3:25
+Spyro 2: Ripto's Rage!,Zephyr,3:46
+Spyro 2: Ripto's Rage!,Metro Speedway,2:30
+Spyro 2: Ripto's Rage!,Magma Cone,3:29
+Spyro 2: Ripto's Rage!,Crystal Popcorn Challenge,1:17
+Spyro 2: Ripto's Rage!,Icy Speedway,2:19
+Spyro 2: Ripto's Rage!,Hockey Match,2:00
+Spyro 2: Ripto's Rage!,Sunny Beach,2:43
+Spyro 2: Ripto's Rage!,Mystic Marsh,3:47
+Spyro 2: Ripto's Rage!,Robotica Farms,3:46
+Spyro 2: Ripto's Rage!,Dragon Shores,3:49
+Spyro 2: Ripto's Rage!,Credits,4:06
+Spyro the Dragon,Title Screen,3:33
+Spyro the Dragon,Cliff Town,3:59
+Spyro the Dragon,Ice Cavern,3:08
+Spyro the Dragon,Night Flight,3:03
+Spyro the Dragon,Alpine Ridge,3:36
+Spyro the Dragon,High Caves (PAL Version),3:51
+Spyro the Dragon,Wizard Peak,2:54
+Spyro the Dragon,Blowhard,3:12
+Spyro the Dragon,Stone Hill,2:07
+Spyro the Dragon,Dark Hollow,4:09
+Spyro the Dragon,Sunny Flight,2:30
+Spyro the Dragon,Peace Keepers,3:14
+Spyro the Dragon,Dry Canyon,2:24
+Spyro the Dragon,Beast Makers,3:12
+Spyro the Dragon,Terrace Village,2:34
+Spyro the Dragon,Misty Bog,3:31
+Spyro the Dragon,Wild Flight,2:06
+Spyro the Dragon,Dark Passage,3:05
+Spyro the Dragon,Lofty Castle,3:11
+Spyro the Dragon,Haunted Towers,2:28
+Spyro the Dragon,Icy Flight,2:55
+Spyro the Dragon,Gnorc Cove,2:30
+Spyro the Dragon,Twilight Harbor,3:48
+Spyro the Dragon,Gnasty's Loot,3:24
+Spyro the Dragon,Credits,4:07
+Spyro the Dragon,Bonus Track 2,3:28
+Spyro: Year of the Dragon,Midday Garden Home,3:02
+Spyro: Year of the Dragon,Icy Peak,3:29
+Spyro: Year of the Dragon,Skateboarding/The Lost Wolf,3:10
+Spyro: Year of the Dragon,Spooky Swamp,2:54
+Spyro: Year of the Dragon,Bamboo Terrace,3:15
+Spyro: Year of the Dragon,Sunrise Spring Home,3:02
+Spyro: Year of the Dragon,Evening Lake Home,2:55
+Spyro: Year of the Dragon,Frozen Altars,2:59
+Spyro: Year of the Dragon,Fireworks Factory,4:19
+Spyro: Year of the Dragon,Sunny Villa,3:21
+Spyro: Year of the Dragon,Charmed Ridge,3:51
+Spyro: Year of the Dragon,Scorch's Pit,2:44
+Spyro: Year of the Dragon,Midnight Mountain Home,3:00
+Spyro: Year of the Dragon,Crystal Islands,3:35
+Spyro: Year of the Dragon,Haunted Tomb,3:51
+Spyro: Year of the Dragon,Dino Mines,3:41
+Spyro: Year of the Dragon,Harbor Speedway,3:08
+Spyro: Year of the Dragon,Sorceress's Lair,2:08
+Spyro: Year of the Dragon,Super Bonus Round,4:36
+Spyro: Year of the Dragon,Credits,4:06
+StarCraft,Starcraft Main Title,2:26
+StarCraft,Brood War: Aria,2:07
+StarCraft,Terran One,4:56
+StarCraft,Terran Two,3:57
+StarCraft,Terran Three,4:25
+StarCraft: Brood War,Terran Four,3:52
+Stardew Valley,Stardew Valley Overture,2:23
+Stardew Valley,Summit Celebration,2:59
+Stardew Valley,Summer (Nature's Crescendo),3:26
+Stardew Valley,Summer (The Sun Can Bend An Orange Sky),3:33
+Stardew Valley,Summer (Tropicala),3:20
+Stardew Valley,The Stardrop Saloon,1:23
+Stardew Valley,Dance Of The Moonlight Jellies,1:47
+Stardew Valley,Cloud Country,1:26
+Stardew Valley,Fall (The Smell Of Mushroom),3:28
+Stardew Valley,Fall (Ghost Synth),2:32
+Stardew Valley,Fall (Raven's Descent),2:45
+Stardew Valley,Winter (Nocturne Of Ice),3:14
+Stardew Valley,Winter (The Wind Can Be Still),2:48
+Stardew Valley,Winter (Ancient),3:02
+Stardew Valley,Submarine Theme,2:02
+Stardew Valley,Pleasant Memory (Penny's Theme),0:59
+Stardew Valley,Land Of Green and Gold (Leah's Theme),1:24
+Stardew Valley,Grapefruit Sky (Dr. Harvey's Theme),1:14
+Stardew Valley,Frozen Pizza And Eggs (Shane's Theme),1:11
+Stardew Valley,Spring (It's A Big World Outside),3:52
+Stardew Valley,Sam's Band (Electronic Version),1:03
+Stardew Valley,Spring (The Valley Comes Alive),4:19
+Stardew Valley,Mines (Crystal Bells),2:50
+Stardew Valley,Mines (Star Lumpy),1:44
+Stardew Valley,Mines (Icicles),1:40
+Stardew Valley,Mines (Cloth),1:44
+Stardew Valley,Spring (Wild Horseradish Jam),4:00
+Stardew Valley,Mines (The Lava Dwellers),2:58
+Stardew Valley,Mines (Danger!),1:47
+Stardew Valley,In The Deep Woods,2:03
+Stardew Valley,Load Game,1:49
+Stardew Valley,Grapefruit Sky (Pasta Primavera Mix),1:25
+Stardew Valley,Movie Theater,1:44
+Stardew Valley,Movie Theater (Closing Time),0:54
+Stardew Valley,JunimoKart (Title Theme),1:39
+Stardew Valley,Ginger Island,2:38
+Stardew Valley,Volcano Mines (Forgotten World),2:50
 StarTropics,In the Cockpit of Sub-C,1:02
 StarTropics,Miracola,1:02
 StarTropics,Alien Spaceship,1:33
 StarTropics,Overworld,1:03
 StarTropics,Test of Island Courage (Dungeon),1:25
+Super Mario 3D World,Shifty Boo Mansion,3:29
+Super Mario 3D World,WORLD 3,1:21
+Super Mario 3D World,Chain-Link Charge,1:49
+Super Mario 3D World,Hisstocrat,2:25
+Super Mario 3D World,WORLD 1,1:07
+Super Mario 3D World,Sprawling Savannah,2:23
+Super Mario 3D World,Beep Block Skyway,2:47
+Super Mario 3D World,Fuzzy Time Mine,2:06
+Super Mario 3D World,Fort Fire Bros.,2:42
+Super Mario 3D World,Bowser's Highway Showdown,2:24
+Super Mario 3D World,WORLD 5,1:07
+Super Mario 3D World,Double Cherry Pass,2:20
+Super Mario 3D World,Super Bell Hill,2:05
+Super Mario 3D World,Footlight Lane,2:07
+Super Mario 3D World,The Bullet Bill Express,2:46
+Super Mario 3D World,The Great Tower Showdown 1,1:23
+Super Mario 3D World,The Great Tower Showdown 2,2:02
+Super Mario 3D World,Staff Roll,2:07
+Super Mario 3D World,Switch Scramble Circus,1:18
+Super Mario 3D World,Sunshine Seaside ~ Underwater,3:24
+Super Mario 3D World,Bowser's Bullet Bill Brigade,2:28
+Super Mario 3D World,Piranha Creeper Creek,3:00
+Super Mario 3D World,Simmering Lava Lake,2:47
+Super Mario 3D World,WORLD Bowser,1:19
+Super Mario 3D World,Bowser's Lava Lake Keep,2:37
+Super Mario 3D World,Plunging Falls,1:32
+Super Mario 3D World,Motley Bossblob,2:08
+Super Mario 3D World,Conkdor Canyon,2:16
+Super Mario 3D World,WORLD Star,1:20
+Super Mario 3D World,Rainbow Park,1:19
+Super Mario 3D World,Color Panel de Link,0:34
+Super Mario 3D World,Super Block Land,1:27
+Super Mario 3D World,WORLD Mushroom ~ Flower,2:20
+Super Mario 3D World,Champion's Road,3:58
+Super Mario 3D World,Super Mario 3D World Theme,1:36
+Super Mario 3D World,Mount Must Dash,1:21
+Super Mario 3D World,WORLD 6,1:34
+Super Mario 3D World,Snowball Park,2:00
+Super Mario 3D World,Hands-On Hall,2:16
 Super Mario Bros.,Ground BGM,2:58
 Super Mario Bros.,Ending,0:38
 Super Mario Bros.,Underground BGM,0:29
@@ -3035,6 +3179,255 @@ Super Smash Bros.,Peach's Castle Sky Stage,2:55
 Super Smash Bros.,Congo Jungle Stage,5:18
 Super Smash Bros.,Hyrule Castle Stage,1:28
 Super Smash Bros.,Planet Zebes Stage,2:01
+Super Smash Bros. for Nintendo 3DS and Wii U,Opening - Super Smash Bros. for Wii U,1:41
+Super Smash Bros. for Nintendo 3DS and Wii U,Menu (for Wii U),2:08
+Super Smash Bros. for Nintendo 3DS and Wii U,Menu (Melee): Ver. 2,2:23
+Super Smash Bros. for Nintendo 3DS and Wii U,Battlefield,2:08
+Super Smash Bros. for Nintendo 3DS and Wii U,Multi-Man Smash,2:22
+Super Smash Bros. for Nintendo 3DS and Wii U,Final Destination Ver. 2,2:18
+Super Smash Bros. for Nintendo 3DS and Wii U,Final Destination,2:40
+Super Smash Bros. for Nintendo 3DS and Wii U,Master Hand,2:19
+Super Smash Bros. for Nintendo 3DS and Wii U,Classic: Map (for Wii U),0:33
+Super Smash Bros. for Nintendo 3DS and Wii U,Classic: Results Screen,1:07
+Super Smash Bros. for Nintendo 3DS and Wii U,Classic: Final Results,1:24
+Super Smash Bros. for Nintendo 3DS and Wii U,Results Display Screen,1:03
+Super Smash Bros. for Nintendo 3DS and Wii U,Master Orders: Ticket Selection,0:56
+Super Smash Bros. for Nintendo 3DS and Wii U,Crazy Orders: Ticket Selection,0:55
+Super Smash Bros. for Nintendo 3DS and Wii U,Crazy Orders: Final Battle Victory,0:51
+Super Smash Bros. for Nintendo 3DS and Wii U,Crazy Orders: Final Battle Defeat,0:54
+Super Smash Bros. for Nintendo 3DS and Wii U,Events,1:39
+Super Smash Bros. for Nintendo 3DS and Wii U,Smash Tour: Map,1:18
+Super Smash Bros. for Nintendo 3DS and Wii U,Online Practice Stage,1:16
+Super Smash Bros. for Nintendo 3DS and Wii U,All-Star Rest Area,0:56
+Super Smash Bros. for Nintendo 3DS and Wii U,Gallery/Hoard,2:44
+Super Smash Bros. for Nintendo 3DS and Wii U,Trophy Shop,0:55
+Super Smash Bros. for Nintendo 3DS and Wii U,Trophy Rush,3:20
+Super Smash Bros. for Nintendo 3DS and Wii U,Replay/Album/Records,1:26
+Super Smash Bros. for Nintendo 3DS and Wii U,Credits (Smash Bros.): Ver. 2,2:23
+Super Smash Bros. for Nintendo 3DS and Wii U,Tourney,1:56
+Super Smash Bros. for Nintendo 3DS and Wii U,Tourney: Tourney List (Spectator),1:54
+Super Smash Bros. for Nintendo 3DS and Wii U,Tourney: Final Results,0:47
+Super Smash Bros. for Nintendo 3DS and Wii U,Credits,2:11
+Super Smash Bros. for Nintendo 3DS and Wii U,Battle! (Champion) / Champion Cynthia,2:15
+Super Smash Bros. for Nintendo 3DS and Wii U,Route 10,2:10
+Super Smash Bros. for Nintendo 3DS and Wii U,N's Castle Medley,2:13
+Super Smash Bros. for Nintendo 3DS and Wii U,Battle! (Reshiram/Zekrom),2:08
+Super Smash Bros. for Nintendo 3DS and Wii U,Route 23,2:19
+Super Smash Bros. for Nintendo 3DS and Wii U,Battle! (Trainer Battle) (Pokémon X / Pokémon Y),2:09
+Super Smash Bros. for Nintendo 3DS and Wii U,Mute City Ver. 3,2:03
+Super Smash Bros. for Nintendo 3DS and Wii U,Lost in Thoughts All Alone,2:49
+Super Smash Bros. for Nintendo 3DS and Wii U,Fight 1 (Fire Emblem Gaiden),2:09
+Super Smash Bros. for Nintendo 3DS and Wii U,Fire Emblem: Mystery of the Emblem Medley,2:12
+Super Smash Bros. for Nintendo 3DS and Wii U,Meeting Theme Series Medley,2:15
+Super Smash Bros. for Nintendo 3DS and Wii U,Magicant / Eight Melodies (Mother),2:24
+Super Smash Bros. for Nintendo 3DS and Wii U,Onett Theme / Winters Theme,2:13
+Super Smash Bros. for Nintendo 3DS and Wii U,Smiles and Tears,2:13
+Super Smash Bros. for Nintendo 3DS and Wii U,Wrath of the Reset Bomb,2:25
+Super Smash Bros. for Nintendo 3DS and Wii U,Destroyed Skyworld,2:14
+Super Smash Bros. for Nintendo 3DS and Wii U,In the Space-Pirate Ship,2:19
+Super Smash Bros. for Nintendo 3DS and Wii U,Ashley's Song Ver. 2,1:56
+Super Smash Bros. for Nintendo 3DS and Wii U,Stage Select (Pikmin 2),2:11
+Super Smash Bros. for Nintendo 3DS and Wii U,Mission Mode (Pikmin 3),2:04
+Super Smash Bros. for Nintendo 3DS and Wii U,Bubblegum K.K.,2:07
+Super Smash Bros. for Nintendo 3DS and Wii U,Plaza / Title (Animal Crossing: City Folk / Animal Crossing: Wild World),2:14
+Super Smash Bros. for Nintendo 3DS and Wii U,Outdoors at 7 p.m. (Sunny) / Main Street,1:53
+Super Smash Bros. for Nintendo 3DS and Wii U,Tortimer Island Medley,2:23
+Super Smash Bros. for Nintendo 3DS and Wii U,Super Hoop,1:58
+Super Smash Bros. for Nintendo 3DS and Wii U,Skateboard Arena (Free Mode),2:03
+Super Smash Bros. for Nintendo 3DS and Wii U,Jogging/Countdown,2:15
+Super Smash Bros. for Nintendo 3DS and Wii U,Minor Circuit,2:13
+Super Smash Bros. for Nintendo 3DS and Wii U,Super Mario World Medley,2:10
+Super Smash Bros. for Nintendo 3DS and Wii U,Fortress Boss (Super Mario World),2:17
+Super Smash Bros. for Nintendo 3DS and Wii U,Super Mario Bros. Medley,2:12
+Super Smash Bros. for Nintendo 3DS and Wii U,Rosalina in the Observatory / Luma's Theme,2:06
+Super Smash Bros. for Nintendo 3DS and Wii U,Egg Planet,2:07
+Super Smash Bros. for Nintendo 3DS and Wii U,Ground Theme / Underground Theme,2:04
+Super Smash Bros. for Nintendo 3DS and Wii U,Super Mario 3D Land Theme / Beach Theme,2:08
+Super Smash Bros. for Nintendo 3DS and Wii U,Athletic Theme / Ground Theme,1:52
+Super Smash Bros. for Nintendo 3DS and Wii U,Luigi's Mansion Series Medley,2:08
+Super Smash Bros. for Nintendo 3DS and Wii U,Chill (Dr. Mario) Ver. 2,2:28
+Super Smash Bros. for Nintendo 3DS and Wii U,Mario Paint Medley,1:58
+Super Smash Bros. for Nintendo 3DS and Wii U,"Try, Try Again",2:06
+Super Smash Bros. for Nintendo 3DS and Wii U,Paper Mario Medley,2:37
+Super Smash Bros. for Nintendo 3DS and Wii U,Title (Super Mario Maker),2:07
+Super Smash Bros. for Nintendo 3DS and Wii U,Super Mario Bros.: The Lost Levels Medley,2:18
+Super Smash Bros. for Nintendo 3DS and Wii U,Super Mario Bros. 3 Medley,2:17
+Super Smash Bros. for Nintendo 3DS and Wii U,Xenoblade Chronicles Medley,2:15
+Super Smash Bros. for Nintendo 3DS and Wii U,Light Plane,2:12
+Super Smash Bros. for Nintendo 3DS and Wii U,Light Plane (Vocal Mix),2:12
+Super Smash Bros. for Nintendo 3DS and Wii U,Turbo Jet,2:24
+Super Smash Bros. for Nintendo 3DS and Wii U,Pedal Glider,2:10
+Super Smash Bros. for Nintendo 3DS and Wii U,Wii Sports Series Medley,2:14
+Super Smash Bros. for Nintendo 3DS and Wii U,Cut Man Stage,2:13
+Super Smash Bros. for Nintendo 3DS and Wii U,Mega Man 4-6 Retro Medley,2:07
+Super Smash Bros. for Nintendo 3DS and Wii U,Mega Man Retro Medley,2:14
+Super Smash Bros. for Nintendo 3DS and Wii U,Mega Man 2 Medley,2:10
+Super Smash Bros. for Nintendo 3DS and Wii U,Air Man Stage,2:13
+Super Smash Bros. for Nintendo 3DS and Wii U,Quick Man Stage,2:12
+Super Smash Bros. for Nintendo 3DS and Wii U,Mega Man 2 Retro Medley,3:26
+Super Smash Bros. for Nintendo 3DS and Wii U,Spark Man Stage,2:17
+Super Smash Bros. for Nintendo 3DS and Wii U,Shadow Man Stage,1:48
+Super Smash Bros. for Nintendo 3DS and Wii U,Mega Man 3 Retro Medley,2:15
+Super Smash Bros. for Nintendo 3DS and Wii U,PAC-MAN,2:14
+Super Smash Bros. for Nintendo 3DS and Wii U,PAC-MAN'S PARK / BLOCK TOWN,2:05
+Super Smash Bros. for Nintendo 3DS and Wii U,Ryu Stage,2:49
+Super Smash Bros. for Nintendo 3DS and Wii U,Ken Stage,2:13
+Super Smash Bros. for Nintendo 3DS and Wii U,Theme of Bayonetta - Mysterious Destiny (Instrumental),1:32
+Super Smash Bros. for Nintendo 3DS and Wii U,Tomorrow Is Mine (Bayonetta 2 Theme) (Instrumental),1:42
+Super Smash Bros. for Nintendo 3DS and Wii U,Wrecking Crew Medley,2:14
+Super Smash Bros. for Nintendo 3DS and Wii U,Wrecking Crew Retro Medley,2:16
+Super Smash Bros. for Nintendo 3DS and Wii U,Bathtime Theme,2:14
+Super Smash Bros. for Nintendo 3DS and Wii U,Bathtime Theme (Vocal Mix),2:14
+Super Smash Bros. for Nintendo 3DS and Wii U,The valedictory elegy,2:11
+Super Smash Bros. for Nintendo 3DS and Wii U,Mii Plaza,2:21
+Super Smash Bros. for Nintendo 3DS and Wii U,Duck Hunt Medley,2:13
+Super Smash Bros. for Nintendo 3DS and Wii U,"Save the World, Heroes!",2:11
+Super Smash Bros. for Nintendo 3DS and Wii U,Culdcept,2:03
+Super Smash Bros. for Nintendo 3DS and Wii U,Style Savvy: Trendsetters,1:54
+Super Smash Bros. for Nintendo 3DS and Wii U,Famicom Medley,2:27
+Super Smash Bros. for Nintendo 3DS and Wii U,Nintendo Land Medley,2:12
+Super Smash Bros. for Nintendo 3DS and Wii U,Tomodachi Life,2:19
+Super Smash Bros. for Nintendo 3DS and Wii U,Balloon Fight Medley,2:04
+Super Smash Bros. for Nintendo 3DS and Wii U,Circuit (Mario Kart 7),2:04
+Super Smash Bros. for Nintendo 3DS and Wii U,Rainbow Road Medley,2:06
+Super Smash Bros. for Nintendo 3DS and Wii U,Cloudtop Cruise,2:13
+Super Smash Bros. for Nintendo 3DS and Wii U,Gear Getaway,2:23
+Super Smash Bros. for Nintendo 3DS and Wii U,Jungle Level Jazz Style,2:00
+Super Smash Bros. for Nintendo 3DS and Wii U,Jungle Level Tribal Style,2:21
+Super Smash Bros. for Nintendo 3DS and Wii U,Main Theme / Underworld Theme,2:21
+Super Smash Bros. for Nintendo 3DS and Wii U,Saria's Song / Middle Boss Battle,2:09
+Super Smash Bros. for Nintendo 3DS and Wii U,Gerudo Valley,2:10
+Super Smash Bros. for Nintendo 3DS and Wii U,The Great Sea / Menu Select,2:02
+Super Smash Bros. for Nintendo 3DS and Wii U,Full Steam Ahead (Spirit Tracks),2:16
+Super Smash Bros. for Nintendo 3DS and Wii U,Ballad of the Goddess / Ghirahim's Theme,1:59
+Super Smash Bros. for Nintendo 3DS and Wii U,The Legend of Zelda Medley,2:10
+Super Smash Bros. for Nintendo 3DS and Wii U,Dark World / Dark World Dungeon,2:14
+Super Smash Bros. for Nintendo 3DS and Wii U,Title (Metroid),2:02
+Super Smash Bros. for Nintendo 3DS and Wii U,Escape,2:33
+Super Smash Bros. for Nintendo 3DS and Wii U,Yoshi's Island,2:10
+Super Smash Bros. for Nintendo 3DS and Wii U,Yoshi's Woolly World,2:00
+Super Smash Bros. for Nintendo 3DS and Wii U,Ice Cream Island,2:07
+Super Smash Bros. for Nintendo 3DS and Wii U,Butter Building Ver. 2,2:13
+Super Smash Bros. for Nintendo 3DS and Wii U,The Great Cave Offensive,2:16
+Super Smash Bros. for Nintendo 3DS and Wii U,Green Greens Ver. 2,2:18
+Super Smash Bros. for Nintendo 3DS and Wii U,Forest/Nature Area,2:10
+Super Smash Bros. for Nintendo 3DS and Wii U,King Dedede's Theme Ver. 2,2:08
+Super Smash Bros. for Nintendo 3DS and Wii U,Star Wolf's Theme / Sector Z,3:59
+Super Smash Bros. for Nintendo 3DS and Wii U,Theme from Area 6 / Missile Slipstream,3:40
+Super Smash Bros. Brawl,Gritzy Desert,3:11
+Super Smash Bros. Brawl,Underground Theme (Super Mario Bros.),2:51
+Super Smash Bros. Brawl,Mario Circuit,2:28
+Super Smash Bros. Brawl,Luigi Circuit,3:40
+Super Smash Bros. Brawl,Waluigi Pinball,2:49
+Super Smash Bros. Brawl,Underground Theme (Super Mario Land),3:48
+Super Smash Bros. Brawl,Title & Ending (Super Mario World),4:21
+Super Smash Bros. Brawl,Main Theme (New Super Mario Bros.),3:12
+Super Smash Bros. Brawl,Luigi’s Mansion Theme,3:04
+Super Smash Bros. Brawl,Fire Emblem Theme,3:02
+Super Smash Bros. Brawl,Shadow Dragon Medley,4:46
+Super Smash Bros. Brawl,With Mila’s Divine Protection (Celica Map 1),4:17
+Super Smash Bros. Brawl,Preparing to Advance,4:09
+Super Smash Bros. Brawl,Winning Road - Roy’s Hope,3:35
+Super Smash Bros. Brawl,Attack,3:58
+Super Smash Bros. Brawl,Snowman,4:24
+Super Smash Bros. Brawl,You Call This a Utopia!,2:58
+Super Smash Bros. Brawl,Porky’s Theme,3:39
+Super Smash Bros. Brawl,Mother 3 Love Theme,3:30
+Super Smash Bros. Brawl,Unfounded Revenge & Smashing Song of Praise,3:51
+Super Smash Bros. Brawl,World Map (Pikmin 2),2:59
+Super Smash Bros. Brawl,"WarioWare, Inc.",2:58
+Super Smash Bros. Brawl,Title (Animal Crossing),2:12
+Super Smash Bros. Brawl,The Roost,3:03
+Super Smash Bros. Brawl,Town Hall and Tom Nook’s Store,3:09
+Super Smash Bros. Brawl,Underworld,3:53
+Super Smash Bros. Brawl,Title (Kid Icarus),2:53
+Super Smash Bros. Brawl,Skyworld,3:03
+Super Smash Bros. Brawl,Kid Icarus Original Medley,3:57
+Super Smash Bros. Brawl,Famicom Medley,4:18
+Super Smash Bros. Brawl,Tetris - Type A,4:04
+Super Smash Bros. Brawl,Tunnel Scene (X),3:30
+Super Smash Bros. Brawl,Power-Up Music,1:22
+Super Smash Bros. Brawl,Gyromite,3:17
+Super Smash Bros. Brawl,Chill (Dr. Mario),4:09
+Super Smash Bros. Brawl,Clu Clu Land,3:37
+Super Smash Bros. Brawl,Ice Climber,3:37
+Super Smash Bros. Brawl,Shin Onigashima,3:20
+Super Smash Bros. Brawl,Mii Channel,2:26
+Super Smash Bros. Brawl,Battle Scene & Final Boss (Golden Sun),4:42
+Super Smash Bros. Brawl,Excite Truck,3:09
+Super Smash Bros. Brawl,Flat Zone 2,3:50
+Super Smash Bros. Brawl,Marionation Gear,3:01
+Super Smash Bros. Brawl,Calling to the Night,3:16
+Super Smash Bros. Brawl,Encounter,4:28
+Super Smash Bros. Brawl,Theme of Tara,2:28
+Super Smash Bros. Brawl,Snake Eater (Instrumental),5:08
+Super Smash Bros. Brawl,MGS4 ~Theme of Love~ Smash Bros. Brawl Version,3:54
+Super Smash Bros. Brawl,Credits (Super Smash Bros.),2:50
+Super Smash Bros. Brawl,Menu (Super Smash Bros. Melee),3:28
+Super Smash Bros. Brawl,Opening (Super Smash Bros. Melee),3:16
+Super Smash Bros. Brawl,DK Jungle 1 Theme (Barrel Blast),2:13
+Super Smash Bros. Brawl,King K.Rool & Ship Deck 2,4:04
+Super Smash Bros. Brawl,Bramble Blast,3:53
+Super Smash Bros. Brawl,Battle for Storm Hill,3:33
+Super Smash Bros. Brawl,Jungle Level,2:58
+Super Smash Bros. Brawl,HIS WORLD (Instrumental),3:31
+Super Smash Bros. Brawl,Angel Island Zone,4:31
+Super Smash Bros. Brawl,Super Smash Bros. Brawl Main Theme,4:10
+Super Smash Bros. Brawl,All-Star Rest Area,1:22
+Super Smash Bros. Brawl,Boss Battle,2:12
+Super Smash Bros. Brawl,Trophy Gallery,5:00
+Super Smash Bros. Brawl,Menu 1,3:17
+Super Smash Bros. Brawl,Sticker Album & Album & Chronicle,1:10
+Super Smash Bros. Brawl,Coin Launcher,1:54
+Super Smash Bros. Brawl,Stage Builder,2:08
+Super Smash Bros. Brawl,Battlefield Ver. 2,2:38
+Super Smash Bros. Brawl,Credits,4:44
+Super Smash Bros. Brawl,Menu 2,2:35
+Super Smash Bros. Brawl,Battlefield,3:05
+Super Smash Bros. Brawl,Final Destination,2:55
+Super Smash Bros. Brawl,Classic - Results Screen (Vs. Master Hand),1:15
+Super Smash Bros. Brawl,Online Practice Stage,1:05
+Super Smash Bros. Brawl,Results Display Screen,1:11
+Super Smash Bros. Brawl,Menu (Metroid Prime) Subspace Emissary Ver.,2:52
+Super Smash Bros. Brawl,Main Theme (Metroid) Subspace Emissary Ver.,4:32
+Super Smash Bros. Brawl,Step - Subspace Ver.3,3:48
+Super Smash Bros. Brawl,Step - The Plain,2:31
+Super Smash Bros. Brawl,Step - The Cave,3:19
+Super Smash Bros. Brawl,Step - Subspace,3:07
+Super Smash Bros. Brawl,Boss Battle Song 1,3:54
+Super Smash Bros. Brawl,Boss Battle Song 2,3:24
+Super Smash Bros. Brawl,Jungle Level (Subspace Emissary),3:51
+Super Smash Bros. Brawl,Song of Storms,4:13
+Super Smash Bros. Brawl,Main Theme (The Legend of Zelda),4:26
+Super Smash Bros. Brawl,Great Temple & Temple,2:38
+Super Smash Bros. Brawl,The Dark World,2:53
+Super Smash Bros. Brawl,Hidden Mountain & Forest,2:18
+Super Smash Bros. Brawl,Tal Tal Heights,2:36
+Super Smash Bros. Brawl,Ocarina of Time Medley,3:54
+Super Smash Bros. Brawl,Vs. Ridley,2:27
+Super Smash Bros. Brawl,Obstacle Course,2:34
+Super Smash Bros. Brawl,Yoshi’s Island,4:39
+Super Smash Bros. Brawl,Flower Field,2:14
+Super Smash Bros. Brawl,The Legendary Air Ride Machine,3:14
+Super Smash Bros. Brawl,King Dedede’s Theme,3:21
+Super Smash Bros. Brawl,Boss Theme Medley,3:48
+Super Smash Bros. Brawl,Gourmet Race,3:32
+Super Smash Bros. Brawl,Meta Knight’s Revenge,4:08
+Super Smash Bros. Brawl,Corneria,2:53
+Super Smash Bros. Brawl,Main Theme (Star Fox 64),2:43
+Super Smash Bros. Brawl,Area 6,2:01
+Super Smash Bros. Brawl,Star Wolf,2:37
+Super Smash Bros. Brawl,Star Wolf (Star Fox - Assault),3:17
+Super Smash Bros. Brawl,Pokémon Main Theme,3:25
+Super Smash Bros. Brawl,Pokémon Center,3:23
+Super Smash Bros. Brawl,Road to Viridian City (From Pallet Town & Pewter City),3:24
+Super Smash Bros. Brawl,Wild Pokémon Battle! (Ruby & Sapphire),3:06
+Super Smash Bros. Brawl,Victory Road,4:04
+Super Smash Bros. Brawl,Wild Pokémon Battle! (Diamond & Pearl),3:09
+Super Smash Bros. Brawl,Dialga & Palkia Battle at Spear Pillar!,3:05
+Super Smash Bros. Brawl,Mute City,3:40
+Super Smash Bros. Brawl,White Land,4:56
+Super Smash Bros. Brawl,Fire Field,2:17
 Super Smash Bros. Melee,Opening,1:31
 Super Smash Bros. Melee,Great Bay,1:31
 Super Smash Bros. Melee,Hyrule Temple,2:58
