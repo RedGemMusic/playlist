@@ -114,12 +114,12 @@ Last Legend 10,Foe's Assault,2:38,Final Fantasy X,Enemy Attack,1,116
 Last Legend 10,The Ballers,3:50,Final Fantasy X,The Blitzers,1,117
 Last Legend 10,Tropical Atoll,4:41,Final Fantasy X,Besaid,1,118
 Last Legend 10,World Wireless,2:45,Final Fantasy X,Spira Unplugged,1,119
-Last Legend 10,Melody of Beleaf,0:39,Final Fantasy X,Hymn of the Fayth,1,120
+Last Legend 10,Canticle of Beleaf,0:39,Final Fantasy X,Hymn of the Fayth,1,120
 Last Legend 10,Summoner's Theme,3:28,Final Fantasy X,Yuna's Theme,2,201
 Last Legend 10,Verdant Motion,3:12,Final Fantasy X,Movement in Green,2,202
 Last Legend 10,Peace in Advance of the Disturbance,3:06,Final Fantasy X,Calm Before the Storm,2,204
 Last Legend 10,Sportsball Start!,3:28,Final Fantasy X,Blitz Off!,2,211
-Last Legend 10,Cool Guy's Melody,2:42,Final Fantasy X,Auron's Theme,2,212
+Last Legend 10,Legendary Guardian's Melody,2:42,Final Fantasy X,Auron's Theme,2,212
 Last Legend 10,The Main Route,3:19,Final Fantasy X,Mi'ihen Highroad,2,213
 Last Legend 10,Big Band Bird,2:48,Final Fantasy X,Chocobo Jam,2,214
 Last Legend 10,Desert Girl's Melody,4:00,Final Fantasy X,Rikku's Theme,2,222
@@ -521,6 +521,13 @@ Last Legend 14: Doomstrider,Celebration of the Chase (Doomstrider),4:47,Final Fa
 Last Legend 14: Doomstrider,Flee! (Doomstrider),2:45,Final Fantasy XIV: Endwalker,Run! (Endwalker),2,90
 Last Legend 14: Doomstrider,Doubled Vengeance (Symphonic Version),4:34,Final Fantasy XIV: Endwalker,Revenge Twofold (Orchestral Version),2,99
 Last Legend 14: Aurorapath,Aurorapath,5:31,Final Fantasy XIV: Dawntrail,Dawntrail,1,1
+Last Legend 14: Aurorapath,Preamble - Headed West,1:05,Final Fantasy XIV: Dawntrail,Prelude - A Westward Journey,1,2
+Last Legend 14: Aurorapath,Burrito Glee,2:51,Final Fantasy XIV: Dawntrail,Taco Delight,1,3
+Last Legend 14: Aurorapath,Tomorrow's Strength,4:34,Final Fantasy XIV: Dawntrail,Morrow's Might,1,4
+Last Legend 14: Aurorapath,For Dreams and Joy,4:19,Final Fantasy XIV: Dawntrail,For Hope and Happiness,1,5
+Last Legend 14: Aurorapath,Desolate Reverberations,2:43,Final Fantasy XIV: Dawntrail,Windswept Echoes,1,6
+Last Legend 14: Aurorapath,Sword's Glorification,2:25,Final Fantasy XIV: Dawntrail,Blade's Exaltation,1,7
+Last Legend 14: Aurorapath,Joys of the Fields,1:54,Final Fantasy XIV: Dawntrail,Pastoral Pleasures,1,8
 Last Legend 14: Aurorapath,Of Sparking Feathers,2:40,Final Fantasy XIV: Dawntrail,Of Glittering Wings,1,11
 Last Legend 14: Aurorapath,Manatee Junction,4:36,Final Fantasy XIV: Dawntrail,Punutiy Crossing,1,13
 Last Legend 14: Aurorapath,Paths Abandoned,3:59,Final Fantasy XIV: Dawntrail,Roads Forsaken,1,14
@@ -528,54 +535,89 @@ Last Legend 14: Aurorapath,Spirit Compelled by Respect,2:47,Final Fantasy XIV: D
 Last Legend 14: Aurorapath,Heavenly Summit,4:25,Final Fantasy XIV: Dawntrail,Empyrean Peak,1,17
 Last Legend 14: Aurorapath,Chiseled in Recollection,4:30,Final Fantasy XIV: Dawntrail,Etched in Memory,1,18
 Last Legend 14: Aurorapath,The Empyrean Destroyer,3:43,Final Fantasy XIV: Dawntrail,The Skyruin,1,19
-Last Legend 14: Aurorapath,Preamble - Headed West,1:05,Final Fantasy XIV: Dawntrail,Prelude - A Westward Journey,1,2
 Last Legend 14: Aurorapath,Brew Time,5:42,Final Fantasy XIV: Dawntrail,Coffee Break,1,22
 Last Legend 14: Aurorapath,Forgotten in the Depths,4:27,Final Fantasy XIV: Dawntrail,Lost in the Deep,1,24
 Last Legend 14: Aurorapath,Roadpaver,4:39,Final Fantasy XIV: Dawntrail,Pathmaker,1,25
 Last Legend 14: Aurorapath,Tomorrow's Sorcery,3:27,Final Fantasy XIV: Dawntrail,Morrow's Magic,1,26
 Last Legend 14: Aurorapath,Blue Fumes at Midday,3:14,Final Fantasy XIV: Dawntrail,Ceruleum Smoke at High Noon,1,27
 Last Legend 14: Aurorapath,Blue Coals at Twilight,4:46,Final Fantasy XIV: Dawntrail,Ceruleum Embers by Dusk,1,29
-Last Legend 14: Aurorapath,Burrito Glee,2:51,Final Fantasy XIV: Dawntrail,Taco Delight,1,3
 Last Legend 14: Aurorapath,Hopes Crushed and Broken,3:38,Final Fantasy XIV: Dawntrail,Hearts Tread and Trampled,1,31
 Last Legend 14: Aurorapath,In Lightning and Flame,4:19,Final Fantasy XIV: Dawntrail,In Fulgur and Fire,1,32
 Last Legend 14: Aurorapath,Thunder in the Shadows,3:12,Final Fantasy XIV: Dawntrail,Crash in the Dark,1,36
 Last Legend 14: Aurorapath,Indigo Horizon,5:02,Final Fantasy XIV: Dawntrail,Starless Skyline,1,37
-Last Legend 14: Aurorapath,Tomorrow's Strength,4:34,Final Fantasy XIV: Dawntrail,Morrow's Might,1,4
 Last Legend 14: Aurorapath,The Composition of Being,4:21,Final Fantasy XIV: Dawntrail,Anatomy of Existence,1,40
 Last Legend 14: Aurorapath,Departed Tranquility,3:47,Final Fantasy XIV: Dawntrail,Bygone Serenity,1,42
-Last Legend 14: Aurorapath,For Dreams and Joy,4:19,Final Fantasy XIV: Dawntrail,For Hope and Happiness,1,5
 Last Legend 14: Aurorapath,An Eternal Path,3:00,Final Fantasy XIV: Dawntrail,A Trail Unending,1,50
 Last Legend 14: Aurorapath,Built in Seclusion,3:48,Final Fantasy XIV: Dawntrail,Paved in Solitude,1,51
 Last Legend 14: Aurorapath,Clear Azure - The Melody from Aurorapath,3:11,Final Fantasy XIV: Dawntrail,Open Sky - The Theme from Dawntrail,1,55
 Last Legend 14: Aurorapath,Favor on the Cliffs,5:42,Final Fantasy XIV: Dawntrail,Blessings on the Bluffs,1,59
-Last Legend 14: Aurorapath,Desolate Reverberations,2:43,Final Fantasy XIV: Dawntrail,Windswept Echoes,1,6
 Last Legend 14: Aurorapath,The Arena's Respite,5:12,Final Fantasy XIV: Dawntrail,The Ring's Reprieve,1,61
 Last Legend 14: Aurorapath,On with the Performance!,5:00,Final Fantasy XIV: Dawntrail,It's Showtime!,1,62
+Last Legend 14: Aurorapath,Bee Mine,4:29,Final Fantasy XIV: Dawntrail,Bee My Honey,1,63
 Last Legend 14: Aurorapath,Hold Nothing Back,5:32,Final Fantasy XIV: Dawntrail,Give it All,1,65
 Last Legend 14: Aurorapath,A Bold Gamble,5:19,Final Fantasy XIV: Dawntrail,A Risky Bet,1,66
-Last Legend 14: Aurorapath,Sword's Glorification,2:25,Final Fantasy XIV: Dawntrail,Blade's Exaltation,1,7
-Last Legend 14: Aurorapath,Joys of the Fields,1:54,Final Fantasy XIV: Dawntrail,Pastoral Pleasures,1,8
-Last Legend 14: Aurorapath,Undamaged Containers,5:21,Final Fantasy XIV: Dawntrail,Unbroken Vessels,2,67
-Last Legend 14: Aurorapath,Temperate Branches,4:40,Final Fantasy XIV: Dawntrail,Winter's Warm Boughs,2,69
-Last Legend 14: Aurorapath,Crusher of Investigation,2:53,Final Fantasy XIV: Dawntrail,Pulper of Inquiry,2,70
-Last Legend 14: Aurorapath,Look for the Lady (Aurorapath),3:28,Final Fantasy XIV: Dawntrail,Find the Princess (Dawntrail),2,71
-Last Legend 14: Aurorapath,Flowers of Spring (Aurorapath),4:52,Final Fantasy XIV: Dawntrail,Roses of May (Dawntrail),2,72
-Last Legend 14: Aurorapath,Move to the Beat,6:53,Final Fantasy XIV: Dawntrail,Ride the Rhythm,3,73
-Last Legend 14: Aurorapath,Unbound,4:22,Final Fantasy XIV: Dawntrail,Unleashed,3,76
-Last Legend 14: Aurorapath,Unrivaled,2:12,Final Fantasy XIV: Dawntrail,Peerless,3,77
-Last Legend 14: Aurorapath,Sword Undamaged,4:33,Final Fantasy XIV: Dawntrail,Blade Unbroken,4,80
-Last Legend 14: Aurorapath,Memory,4:35,Final Fantasy XIV: Dawntrail,Remembrance,4,81
-Last Legend 14: Aurorapath,Last Legend 9: The Last Fight (Aurorapath),4:14,Final Fantasy XIV: Dawntrail,FINAL FANTASY IX The Final Battle (Dawntrail),4,82
-Last Legend 14: Aurorapath,Menacing,3:07,Final Fantasy XIV: Dawntrail,Sinister,5,84
-Last Legend 14: Aurorapath,The Reflection,3:16,Final Fantasy XIV: Dawntrail,The Mirror,5,85
-Last Legend 14: Aurorapath,Complete Dictatorship,5:06,Final Fantasy XIV: Dawntrail,Absolute Tyranny,5,86
-Last Legend 14: Aurorapath,Last Legend 9: Fight 1 (Aurorapath),4:58,Final Fantasy XIV: Dawntrail,FINAL FANTASY IX: Battle 1 (Dawntrail),5,87
-Last Legend 14: Aurorapath,Last Legend 9: Fight 2 (Aurorapath),4:10,Final Fantasy XIV: Dawntrail,FINAL FANTASY IX: Battle 2 (Dawntrail),5,88
-Last Legend 14: Aurorapath,Inexperiences Sailor,4:45,Final Fantasy XIV: Dawntrail,Untested Voyager,6,89
-Last Legend 14: Aurorapath,Worthwhile Endeavors,4:37,Final Fantasy XIV: Dawntrail,Worthy Pursuits,6,91
-Last Legend 14: Aurorapath,The Unmapped Path,5:24,Final Fantasy XIV: Dawntrail,The Uncharted Road,6,92
-Last Legend 14: Aurorapath,Fantastical Thinker's Theme,5:17,Final Fantasy XIV: Dawntrail,Sweet Dreamer's Melody,6,93
-Last Legend 14: Aurorapath,The Dragon Who Could Rule,5:25,Final Fantasy XIV: Dawntrail,The Wyrm Who Would Be King,6,94
+Final Fantasy XIV: Dawntrail,Brumer,4:13,Final Fantasy XIV: Dawntrail,Winterers,1,67
+Last Legend 14: Aurorapath,Undamaged Containers,5:21,Final Fantasy XIV: Dawntrail,Unbroken Vessels,1,68
+Last Legend 14: Aurorapath,Temperate Branches,4:40,Final Fantasy XIV: Dawntrail,Winter's Warm Boughs,1,69
+Final Fantasy XIV: Dawntrail,Brume's Temperate Branches,4:44,Final Fantasy XIV: Dawntrail,Winter's Warm Boughs,1,70
+Last Legend 14: Aurorapath,Crusher of Investigation,2:53,Final Fantasy XIV: Dawntrail,Pulper of Inquiry,1,71
+Last Legend 14: Aurorapath,Look for the Lady (Aurorapath),3:28,Final Fantasy XIV: Dawntrail,Find the Princess (Dawntrail),1,72
+Last Legend 14: Aurorapath,Flowers of Spring (Aurorapath),4:52,Final Fantasy XIV: Dawntrail,Roses of May (Dawntrail),1,73
+Last Legend 14: Aurorapath,Move to the Beat,6:53,Final Fantasy XIV: Dawntrail,Ride the Rhythm,1,74
+Last Legend 14: Aurorapath,Unbound,4:22,Final Fantasy XIV: Dawntrail,Unleashed,1,77
+Final Fantasy XIV: Dawntrail,Unrivaled,4:14,Final Fantasy XIV: Dawntrail,Peerless,1,78
+Final Fantasy XIV: Dawntrail,Skywatchers,5:39,Final Fantasy XIV: Dawntrail,Stargazers,1,79
+Last Legend 14: Aurorapath,Last Legend 9: The Last Fight (Aurorapath),4:14,Final Fantasy XIV: Dawntrail,FINAL FANTASY IX The Final Battle (Dawntrail),1,82
+Final Fantasy XIV: Dawntrail,I Am Water (Beat),4:07,Final Fantasy XIV: Dawntrail,I Am the Sea (Pulse),1,83
+Final Fantasy XIV: Dawntrail,Residence in Body,5:42,Final Fantasy XIV: Dawntrail,Home at Heart,1,84
+Final Fantasy XIV: Dawntrail,Village Melody (Aurorapath),3:25,Final Fantasy XIV: Dawntrail,Town Theme (Dawntrail),1,85
+Final Fantasy XIV: Dawntrail,Conservatory Treasures,5:17,Final Fantasy XIV: Dawntrail,Garden Relics,1,86
+Final Fantasy XIV: Dawntrail,Conservatory Rubble,5:16,Final Fantasy XIV: Dawntrail,Garden Ruins,1,88
+Final Fantasy XIV: Dawntrail,Last Legend 5: Fight I (Aurorapath),4:22,Final Fantasy XIV: Dawntrail,FINAL FANTASY V: Battle 1 (Dawntrail),1,90
+Last Legend 14: Aurorapath,Worthwhile Endeavors,4:37,Final Fantasy XIV: Dawntrail,Worthy Pursuits,1,91
+Final Fantasy XIV: Dawntrail,The Bad Guy's Keep (Aurorapath),5:18,Final Fantasy XIV: Dawntrail,Exdeath's Castle (Dawntrail),1,92
+Final Fantasy XIV: Dawntrail,The Realm Undiscovered (Dawntrail),5:10,Final Fantasy XIV: Dawntrail,A New World (Dawntrail),1,94
+Final Fantasy XIV: Dawntrail,Powder Romp,5:04,Final Fantasy XIV: Dawntrail,Snowline Rollick,1,95
+Final Fantasy XIV: Dawntrail,Braind Unfoggy,3:58,Final Fantasy XIV: Dawntrail,Mind Unclouded,1,96
+Last Legend 14: Aurorapath,Memory,4:35,Final Fantasy XIV: Dawntrail,Remembrance,1,98
+Last Legend 14: Aurorapath,Sword Undamaged,4:33,Final Fantasy XIV: Dawntrail,Blade Unbroken,1,101
+Final Fantasy XIV: Dawntrail,Last Legend 9: The Last Fight (Aurorapath),6:57,Final Fantasy XIV: Dawntrail,FINAL FANTASY IX: The Final Battle (Dawntrail),1,102
+Final Fantasy XIV: Dawntrail,The Vow of Another Day,5:58,Final Fantasy XIV: Dawntrail,The Promise of Tomorrow,1,103
+Final Fantasy XIV: Dawntrail,"A Dawn Anew, A Start Anew",4:20,Final Fantasy XIV: Dawntrail,"A New Day, A New Beginning",1,104
+Final Fantasy XIV: Dawntrail,Shine of Commitment,4:36,Final Fantasy XIV: Dawntrail,Rays of Devotion,1,105
+Final Fantasy XIV: Dawntrail,Sugary Adoration,2:55,Final Fantasy XIV: Dawntrail,Affection Confections,1,107
+Final Fantasy XIV: Dawntrail,Tastes of the Soul,1:58,Final Fantasy XIV: Dawntrail,Flavors of the Heart,1,108
+Final Fantasy XIV: Dawntrail,An Impassioned Finale,2:02,Final Fantasy XIV: Dawntrail,A Heartfelt Finish,1,109
+Final Fantasy XIV: Dawntrail,Colorful Array,5:31,Final Fantasy XIV: Dawntrail,Kaleidoscope,1,110
+Final Fantasy XIV: Dawntrail,Roots of Joy (Push Onward),2:51,Final Fantasy XIV: Dawntrail,Carrots of Happiness (Forge Ahead),1,111
+Last Legend 14: Aurorapath,Last Legend 9: Fight 1 (Aurorapath),4:58,Final Fantasy XIV: Dawntrail,FINAL FANTASY IX: Battle 1 (Dawntrail),1,112
+Final Fantasy XIV: Dawntrail,Shadowed Locale (Aurorapath),7:21,Final Fantasy XIV: Dawntrail,Dark City Treno (Dawntrail),1,113
+Final Fantasy XIV: Dawntrail,Getting to Learn about You,4:05,Final Fantasy XIV: Dawntrail,Coming to Know You,1,114
+Final Fantasy XIV: Dawntrail,Champions' Stride,4:11,Final Fantasy XIV: Dawntrail,Heroes' March,1,115
+Last Legend 14: Aurorapath,Last Legend 9: Fight 2 (Aurorapath),4:10,Final Fantasy XIV: Dawntrail,FINAL FANTASY IX: Battle 2 (Dawntrail),1,116
+Final Fantasy XIV: Dawntrail,Connection through Time,4:56,Final Fantasy XIV: Dawntrail,Link Through the Ages,1,117
+Last Legend 14: Aurorapath,Menacing,3:07,Final Fantasy XIV: Dawntrail,Sinister,1,118
+Last Legend 14: Aurorapath,The Reflection,3:16,Final Fantasy XIV: Dawntrail,The Mirror,1,119
+Last Legend 14: Aurorapath,Complete Dictatorship,5:06,Final Fantasy XIV: Dawntrail,Absolute Tyranny,1,120
+Final Fantasy XIV: Dawntrail,All Blazes,3:04,Final Fantasy XIV: Dawntrail,Everything Burns,1,121
+Final Fantasy XIV: Dawntrail,The Arena,6:02,Final Fantasy XIV: Dawntrail,The Arcadion,1,122
+Final Fantasy XIV: Dawntrail,Admirable Endeavors,4:37,Final Fantasy XIV: Dawntrail,Worthy Pursuits,1,123
+Final Fantasy XIV: Dawntrail,The Thing that Drives the Soul,4:00,Final Fantasy XIV: Dawntrail,What Moves the Heart,1,124
+Last Legend 14: Aurorapath,The Unmapped Path,5:24,Final Fantasy XIV: Dawntrail,The Uncharted Road,1,125
+Final Fantasy XIV: Dawntrail,Roots of Affection,5:11,Final Fantasy XIV: Dawntrail,Carrots of Passion,1,126
+Last Legend 14: Aurorapath,Fantastical Thinker's Theme,5:17,Final Fantasy XIV: Dawntrail,Sweet Dreamer's Melody,1,127
+Last Legend 14: Aurorapath,Inexperienced Sailor,4:45,Final Fantasy XIV: Dawntrail,Untested Voyager,1,128
+Last Legend 14: Aurorapath,The Dragon Who Could Rule,5:25,Final Fantasy XIV: Dawntrail,The Wyrm Who Would Be King,1,130
+Final Fantasy XIV: Dawntrail,Gardening,5:54,Final Fantasy XIV: Dawntrail,Landscaping,1,131
+Final Fantasy XIV: Dawntrail,Roots of Radiance,5:50,Final Fantasy XIV: Dawntrail,Carrots of Brilliance,1,132
+Final Fantasy XIV: Dawntrail,Last Legend 5: Depths (Aurorapath),5:49,Final Fantasy XIV: Dawntrail,FINAL FANTASY V: Dungeon (Dawntrail),1,134
+Final Fantasy XIV: Dawntrail,Locked from Access (Aurorapath),5:29,Final Fantasy XIV: Dawntrail,Sealed Away (Dawntrail),1,136
+Final Fantasy XIV: Dawntrail,Stroll up the Frost Peak (Aurorapath),4:13,Final Fantasy XIV: Dawntrail,To the North Mountain (Dawntrail),1,138
+Final Fantasy XIV: Dawntrail,Most Nimble Feather,3:15,Final Fantasy XIV: Dawntrail,Swiftest Wing,1,140
+Final Fantasy XIV: Dawntrail,Most Absolute Carapace,5:34,Final Fantasy XIV: Dawntrail,Starkest Scale,1,141
+Final Fantasy XIV: Dawntrail,Most Intense Maw,5:36,Final Fantasy XIV: Dawntrail,Fiercest Fang,1,142
+Final Fantasy XIV: Dawntrail,Honeyed Wine and Joy,4:12,Final Fantasy XIV: Dawntrail,Mead and Merriment,1,143
+Final Fantasy XIV: Dawntrail,Under Frigid Heavens,4:29,Final Fantasy XIV: Dawntrail,Neath Wintry Skies,1,144
 Last Legend 2,Old Keep,0:47,Final Fantasy II,Ancient Castle,1,13
 Last Legend 2,Triumph,0:38,Final Fantasy II,Victory,1,17
 Last Legend 2,The Revolutionary Forces,1:08,Final Fantasy II,The Rebel Army,1,5
@@ -872,7 +914,7 @@ Last Legend 7,Fight II,3:30,Final Fantasy VII,Fight On!,1,20
 Last Legend 7,The Red Lion,1:25,Final Fantasy VII,Red XIII's Theme,1,21
 Last Legend 7,The Pursuit,3:34,Final Fantasy VII,The Chase,1,22
 Last Legend 7,Close to the Soul,2:11,Final Fantasy VII,Dear to the Heart,1,23
-Last Legend 7,Earthjuice Power Plant,3:17,Final Fantasy VII,Mako Reactor,1,3
+Last Legend 7,Terrestrial Power Plant,3:17,Final Fantasy VII,Mako Reactor,1,3
 Last Legend 7,Concern,3:59,Final Fantasy VII,Anxiety,1,4
 Last Legend 7,The Martial Artist,5:03,Final Fantasy VII,Tifa's Theme,1,5
 Last Legend 7,The Gunner,3:25,Final Fantasy VII,Barret's Theme,1,6
@@ -905,7 +947,7 @@ Last Legend 7,The Student of Ninjutsu,2:43,Final Fantasy VII,Descendant of Shino
 Last Legend 7,The Engineer,3:08,Final Fantasy VII,Cid's Theme,3,7
 Last Legend 7,Hijacking the Little Stallion!,1:15,Final Fantasy VII,Steal the Tiny Bronco!,3,8
 Last Legend 7,The Corporation's All-Out Attack,2:56,Final Fantasy VII,Shinra's Full-Scale Assault,4,1
-Last Legend 7,Earthjuice Gun - The Annihilation of the Corporation,1:32,Final Fantasy VII,Mako Cannon - The Destruction of Shinra,4,12
+Last Legend 7,Terrestrial Energy Gun - The Annihilation of the Corporation,1:32,Final Fantasy VII,Mako Cannon - The Destruction of Shinra,4,12
 Last Legend 7,ALIEN WHOLE,3:56,Final Fantasy VII,JENOVA COMPLETE,4,14
 Last Legend 7,Creation of a Divinity,4:09,Final Fantasy VII,Birth of a God,4,15
 Last Legend 7,Half-Flighted Seraph,4:07,Final Fantasy VII,One-Winged Angel,4,16
@@ -1021,7 +1063,7 @@ Last Legend 9,Settlement of the Genomes,3:07,Final Fantasy IX,"Bran Bal, the Sou
 Last Legend 9,Demon Castle,3:00,Final Fantasy IX,Pandemonium,4,8
 Last Legend 9,Together,2:33,Final Fantasy IX,Not Alone,4,9
 Last Legend 9,Child of the Summoner Village,3:33,Final Fantasy IX,Daughter of Madain Sari,5,32
-Last Legend 9,Our Dude Turned to Stone,1:17,Final Fantasy IX,The Petrification of Blank,5,5
+Last Legend 9,Thief Friend Turned to Stone,1:17,Final Fantasy IX,The Petrification of Blank,5,5
 Last Legend Diamond Diaries,Resonance of the Breeze,3:33,Final Fantasy Crystal Chronicles,Sound of the Wind,1,102
 Last Legend Diamond Diaries,Fleet Junction,1:12,Final Fantasy Crystal Chronicles,Caravan Crossroad,1,106
 Last Legend Diamond Diaries,Moving Onward,4:11,Final Fantasy Crystal Chronicles,Setting Forth,1,107
@@ -1374,6 +1416,10 @@ Animal Crossing: New Horizons,Airport Lobby (Full Sound Version),2:07,Animal Cro
 Animal Crossing: New Horizons,Able Sisters,1:54,Animal Crossing: New Horizons,,1,84
 Animal Crossing: New Horizons,Nook's Cranny (Before Closing),2:30,Animal Crossing: New Horizons,,1,87
 Animal Crossing: New Horizons,7:00 AM (Sunny),2:55,Animal Crossing: New Horizons,,1,9
+Assassin's Creed,City of Jerusalem,3:11,Assassin's Creed,,1,1
+Assassin's Creed,Flight Through Jerusalem,3:39,Assassin's Creed,,1,2
+Assassin's Creed,Spirit of Damascus,1:31,Assassin's Creed,,1,3
+Assassin's Creed,Trouble In Jerusalem,4:04,Assassin's Creed,,1,4
 Astro Bot,I Am Astro Bot (ASTRO BOT Remix),1:30,Astro Bot,,1,1
 Astro Bot,Astro,4:17,Astro Bot,,1,3
 Astro Bot,Cooling Springs (ASTRO BOT Remix),5:59,Astro Bot,,1,5
@@ -1468,6 +1514,10 @@ Beyond Good & Evil,Hillyan Tour,1:12,Beyond Good & Evil,,1,19
 Beyond Good & Evil,Funky Racing,2:46,Beyond Good & Evil,,1,23
 Beyond Good & Evil,Slaughterhouse Scramble,2:15,Beyond Good & Evil,,1,36
 Beyond Good & Evil,Redemption,2:19,Beyond Good & Evil,,1,47
+Billy Hatcher and the Giant Egg,Chant This Charm ~Theme of Giant Egg~,5:20,Billy Hatcher and the Giant Egg,,1,1
+Billy Hatcher and the Giant Egg,Tumbling Xylophone,1:59,Billy Hatcher and the Giant Egg,,1,5
+Billy Hatcher and the Giant Egg,Let's Go Easy,2:30,Billy Hatcher and the Giant Egg,,1,8
+Billy Hatcher and the Giant Egg,Chant This Charm ~Theme of Giant Egg~ Instrumental,5:28,Billy Hatcher and the Giant Egg,,1,28
 Bloodborne,Darkbeast,4:52,Bloodborne,,1,10
 Bloodborne,The First Hunter,5:08,Bloodborne,,1,23
 Bloodborne,Bloodborne,2:35,Bloodborne,,1,25
@@ -1486,11 +1536,85 @@ Bomberman 64,Green Garden,2:35,Bomberman 64,,1,05
 Bomberman 64,Blue Resort,3:05,Bomberman 64,,1,06
 Bomberman 64,White Ice,2:39,Bomberman 64,,1,08
 Bomberman 64,Black City,2:41,Bomberman 64,,1,09
+Bomberman Hero,Foehn,1:51,Bomberman Hero,,1,1
+Bomberman Hero,Supplement,1:57,Bomberman Hero,,1,2
+Bomberman Hero,Redial,1:48,Bomberman Hero,,1,3
+Bomberman Hero,Monogenic,1:46,Bomberman Hero,,1,4
+Bomberman Hero,Dessert,2:04,Bomberman Hero,,1,7
+Bomberman Hero,Fatidic,2:11,Bomberman Hero,,1,9
+Bomberman Hero,Wok,2:06,Bomberman Hero,,1,10
+Bomberman Hero,Zip,2:21,Bomberman Hero,,1,15
+Bomberman Hero,Milky,2:37,Bomberman Hero,,1,16
+Bomberman Hero,Beak,1:07,Bomberman Hero,,1,17
+Bomberman Hero,Ending,1:43,Bomberman Hero,,1,30
+Breath of Fire IV,Breath of Fire IV ~Opening Animation~,1:37,Breath of Fire IV,,1,1
+Breath of Fire IV,It's an Easy Win,2:02,Breath of Fire IV,,1,5
+Breath of Fire IV,Airily,2:25,Breath of Fire IV,,1,10
+Breath of Fire IV,Men of War,1:47,Breath of Fire IV,,1,12
+Breath of Fire IV,Tiny Village in the Desert,2:29,Breath of Fire IV,,1,15
+Breath of Fire IV,"Gotta Turn it Around, Gotta Turn Around",1:24,Breath of Fire IV,,1,16
+Breath of Fire IV,Bastard Sword,2:26,Breath of Fire IV,,1,18
+Breath of Fire IV,"Working Today, Too",2:19,Breath of Fire IV,,1,19
+Breath of Fire IV,...Yet the Merchants Will Go,2:45,Breath of Fire IV,,1,25
+Breath of Fire IV,~A Man~,2:59,Breath of Fire IV,,1,26
+Breath of Fire IV,Brave Heart,2:44,Breath of Fire IV,,1,28
+Breath of Fire IV,Maybe I'll Even Buy a Sheep,2:28,Breath of Fire IV,,1,30
+Breath of Fire IV,How Long Will the Rain Last?,2:44,Breath of Fire IV,,1,32
+Breath of Fire IV,Song of the Plains,2:08,Breath of Fire IV,,2,1
+Breath of Fire IV,Thousand Wings,2:54,Breath of Fire IV,,2,3
+Breath of Fire IV,Tototon Toton To,2:41,Breath of Fire IV,,2,5
+Breath of Fire IV,"Even Towards Death, Valiantly",2:54,Breath of Fire IV,,2,14
+Breath of Fire IV,Turismo,1:45,Breath of Fire IV,,2,16
+Breath of Fire IV,Go By Ship!,2:00,Breath of Fire IV,,2,19
+Breath of Fire IV,III. Endings and Beginnings,2:33,Breath of Fire IV,,2,28
 Bubsy in: Claws Encounters of the Furred Kind,War of the Woolies,2:22,Bubsy in: Claws Encounters of the Furred Kind,,1,1
 Bubsy in: Claws Encounters of the Furred Kind,Hill Stream Blues,2:35,Bubsy in: Claws Encounters of the Furred Kind,,1,2
 Bubsy in: Claws Encounters of the Furred Kind,Fair is Foul,1:54,Bubsy in: Claws Encounters of the Furred Kind,,1,4
 Bubsy in: Claws Encounters of the Furred Kind,Woolering Heights,4:20,Bubsy in: Claws Encounters of the Furred Kind,,1,8
 Bubsy in: Claws Encounters of the Furred Kind,The Day the Wool Stood Still,2:05,Bubsy in: Claws Encounters of the Furred Kind,,1,9
+Bug Fables: The Everlasting Sapling,Bug Fables,1:50,Bug Fables: The Everlasting Sapling,,1,1
+Bug Fables: The Everlasting Sapling,Where Adventurers Gather,2:17,Bug Fables: The Everlasting Sapling,,1,3
+Bug Fables: The Everlasting Sapling,FIGHT!,2:21,Bug Fables: The Everlasting Sapling,,1,4
+Bug Fables: The Everlasting Sapling,Outskirts,2:11,Bug Fables: The Everlasting Sapling,,1,6
+Bug Fables: The Everlasting Sapling,Snakemouth Den,2:34,Bug Fables: The Everlasting Sapling,,1,12
+Bug Fables: The Everlasting Sapling,His Friends Call Him Spuder (Don't Call Him Spuder),2:27,Bug Fables: The Everlasting Sapling,,1,14
+Bug Fables: The Everlasting Sapling,The One Left Behind (Leif's Theme),2:16,Bug Fables: The Everlasting Sapling,,1,15
+Bug Fables: The Everlasting Sapling,Ant Kingdom,2:18,Bug Fables: The Everlasting Sapling,,1,17
+Bug Fables: The Everlasting Sapling,In the Court of the Ant Queen,2:20,Bug Fables: The Everlasting Sapling,,1,18
+Bug Fables: The Everlasting Sapling,Oh no! WASPS!!,3:16,Bug Fables: The Everlasting Sapling,,1,24
+Bug Fables: The Everlasting Sapling,Caves,2:52,Bug Fables: The Everlasting Sapling,,1,25
+Bug Fables: The Everlasting Sapling,Golden Lands,2:52,Bug Fables: The Everlasting Sapling,,1,26
+Bug Fables: The Everlasting Sapling,Harvest Festival,2:05,Bug Fables: The Everlasting Sapling,,1,28
+Bug Fables: The Everlasting Sapling,"Team, This One's Stronger!",2:36,Bug Fables: The Everlasting Sapling,,1,29
+Bug Fables: The Everlasting Sapling,"High Above, Bee Kingdom",2:28,Bug Fables: The Everlasting Sapling,,1,40
+Bug Fables: The Everlasting Sapling,Store That Honey,2:40,Bug Fables: The Everlasting Sapling,,1,44
+Bug Fables: The Everlasting Sapling,MECHA BEE DESTROYER BLASTLORD,2:40,Bug Fables: The Everlasting Sapling,,1,45
+Bug Fables: The Everlasting Sapling,Lost Castle of Ancient Worship,3:01,Bug Fables: The Everlasting Sapling,,1,50
+Bug Fables: The Everlasting Sapling,The Watcher,2:58,Bug Fables: The Everlasting Sapling,,1,51
+Bug Fables: The Everlasting Sapling,"Team, It's Getting Serious!",2:58,Bug Fables: The Everlasting Sapling,,1,55
+Bug Fables: The Everlasting Sapling,Lands Untamed,2:44,Bug Fables: The Everlasting Sapling,,1,56
+Bug Fables: The Everlasting Sapling,"Cruest Beast, Devourer of Journeys",2:24,Bug Fables: The Everlasting Sapling,,1,59
+Bug Fables: The Everlasting Sapling,Wasp Kingdom,3:16,Bug Fables: The Everlasting Sapling,,1,60
+Bug Fables: The Everlasting Sapling,Elizant II's Promise,3:01,Bug Fables: The Everlasting Sapling,,1,65
+Bug Fables: The Everlasting Sapling,Mothiva's Grand Stand!,3:13,Bug Fables: The Everlasting Sapling,,1,66
+Bug Fables: The Everlasting Sapling,"Battle Against Ultimax, Who Has a Tank",3:34,Bug Fables: The Everlasting Sapling,,1,77
+Bug Fables: The Everlasting Sapling,"The Usurper, Grasping for Power",5:24,Bug Fables: The Everlasting Sapling,,1,80
+Bug Fables: The Everlasting Sapling,"Transcending, Overpowering, Everlasting",5:54,Bug Fables: The Everlasting Sapling,,1,81
+Bug Fables: The Everlasting Sapling,"Team, We Did It!",3:01,Bug Fables: The Everlasting Sapling,,1,82
+Bug Fables: The Everlasting Sapling,Credits,10:15,Bug Fables: The Everlasting Sapling,,1,84
+Bug Fables: The Everlasting Sapling,Heroes of Legends (Bug Fables' 5 Year Anniversary),5:16,Bug Fables: The Everlasting Sapling,,1,85
+Bugdom,Main Menu,1:36,Bugdom,,1,2
+Bugdom,Forest,2:07,Bugdom,,1,5
+Bugdom,Night,1:32,Bugdom,,1,7
+Bugsnax,A Date with Gramble,1:56,Bugsnax,,1,9
+Bugsnax,Wiggle Wigglebottom's Steamy Walking Tour,3:17,Bugsnax,,1,10
+Bugsnax,Ghost Stories,2:16,Bugsnax,,1,11
+Bugsnax,Mama Mewon's Lair,2:39,Bugsnax,,1,17
+Bugsnax,Megamaki Attack,3:20,Bugsnax,,1,20
+Bugsnax,Cromdo's Caper,0:46,Bugsnax,,1,21
+Bugsnax,Sizzlin' Sands,2:58,Bugsnax,,1,25
+Bugsnax,Let's Grumping Dance!,1:36,Bugsnax,,1,28
+Bugsnax,It's Bugsnax!,3:30,Bugsnax,,1,36
 Bust-a-Move,Bubble Bustin',1:32,Bust-a-Move,,1,2
 Bust-a-Move,Staff Roll,1:40,Bust-a-Move,,1,7
 Cadence of Hyrule: Crypt of the NecroDancer Featuring The Legend of Zelda,Main Menu,3:03,Cadence of Hyrule: Crypt of the NecroDancer Featuring The Legend of Zelda,,1,1
@@ -1846,6 +1970,20 @@ Destiny,Eye of the Gate Lord,4:01,Destiny,,1,34
 Destiny,End of the Line,3:31,Destiny,,1,37
 Destiny,Excerpt from the Union,1:45,Destiny,,1,43
 Destiny,All Ends Are Beginnings,1:33,Destiny,,1,44
+Deus Ex,Main Title,2:24,Deus Ex,,1,1
+Deus Ex,Intro Sequence,2:16,Deus Ex,,1,2
+Deus Ex,UNATCO,1:52,Deus Ex,,1,4
+Deus Ex,NYC Streets,2:13,Deus Ex,,1,6
+Deus Ex,Lebedev's Airfield,2:30,Deus Ex,,1,7
+Deus Ex,Airfield Action,1:22,Deus Ex,,1,8
+Deus Ex,Enemy Within,1:53,Deus Ex,,1,9
+Deus Ex,The Synapse (Hong Kong Streets),2:28,Deus Ex,,1,11
+Deus Ex,Versalife,2:13,Deus Ex,,1,14
+Deus Ex,DuClare Chateau,2:53,Deus Ex,,1,17
+Deus Ex,Paris Action,1:26,Deus Ex,,1,18
+Deus Ex,Return To NYC,1:42,Deus Ex,,1,19
+Deus Ex,Begin The End (Bunker),3:45,Deus Ex,,1,24
+Deus Ex,DX Club Mix,3:13,Deus Ex,,1,30
 Diddy Kong Racing,Diddy Kong Racing Theme,1:08,Diddy Kong Racing,,1,1
 Diddy Kong Racing,Hot Top Volcano,1:46,Diddy Kong Racing,,1,10
 Diddy Kong Racing,Boss Challenge 2,1:24,Diddy Kong Racing,,1,13
@@ -1930,6 +2068,21 @@ Earthworm Jim,Who Turned Out the Lights?,3:39,Earthworm Jim,,1,6
 Earthworm Jim 2,Puppy Love,3:39,Earthworm Jim 2,,1,10
 Earthworm Jim 2,Udderly Abducted,3:19,Earthworm Jim 2,,1,7
 Earthworm Jim 2,"See Jim Run, Run Jim Run!",3:08,Earthworm Jim 2,,1,9
+Elden Ring,Elden Ring,1:38,Elden Ring,,1,1
+Elden Ring,Erdtree Knights,2:46,Elden Ring,,1,32
+Elden Ring,Erdtree Avatar,3:06,Elden Ring,,1,41
+Elden Ring,Omen Illusion,1:51,Elden Ring,,1,45
+Elden Ring,Lord's Apparition,1:48,Elden Ring,,1,46
+Elden Ring,Regal Ancestor Spirit,4:08,Elden Ring,,1,47
+Elden Ring,"Mohg, Lord of Blood",4:22,Elden Ring,,1,54
+Elden Ring,"Malenia, Blade of Miquella",3:44,Elden Ring,,1,56
+Elden Ring,Song of Honor,1:09,Elden Ring,,1,57
+Elden Ring,"Rennala, Queen of the Full Moon",4:46,Elden Ring,,1,61
+Elden Ring,The Final Battle,4:58,Elden Ring,,1,66
+Elden Ring,The Putrescent Knight,3:57,Elden Ring,,2,27
+Elden Ring,The Saint of the Bud,3:58,Elden Ring,,2,28
+Elden Ring,Those United in Common Cause,4:14,Elden Ring,,2,30
+Elden Ring,The Promised Consort,5:37,Elden Ring,,2,35
 F-Zero X,Endless Challenge,2:50,F-Zero X,,1,1
 F-Zero X,Title BGM,2:35,F-Zero X,,1,11
 F-Zero X,Car Select,1:24,F-Zero X,,1,12
@@ -1940,6 +2093,13 @@ F-Zero X,The Long Distance of Murder,2:38,F-Zero X,,1,06
 F-Zero X,Crazy Call at Cry,3:18,F-Zero X,,1,07
 F-Zero X,Drivin' Through on Max,2:47,F-Zero X,,1,08
 F-Zero X,Climb up! And Get the Last Chance!,2:55,F-Zero X,,1,09
+Fable,Fable Theme,3:27,Fable,,1,01
+Fable,Oakvale,3:25,Fable,,1,02
+Fable,Darkwood,4:10,Fable,,1,03
+Fable,Witchwood,3:10,Fable,,1,04
+Fable,Summer Fields,4:04,Fable,,1,06
+Fable,Bowerstone,4:34,Fable,,1,07
+Fable,Greatwood,3:15,Fable,,1,11
 Fire Emblem Awakening,"""But, Frederick, it's nearly dark!""",2:44,Fire Emblem Awakening,,1,13
 Fire Emblem Awakening,"""I mean it. Go!""",2:15,Fire Emblem Awakening,,1,15
 Fire Emblem Awakening,"""Farewell...my friends...""",0:37,Fire Emblem Awakening,,1,16
@@ -2208,6 +2368,32 @@ Harley's Humongous Adventure,Main Theme,1:24,Harley's Humongous Adventure,,1,1
 Harley's Humongous Adventure,Level 2,1:21,Harley's Humongous Adventure,,1,2
 Harley's Humongous Adventure,Level 3,1:39,Harley's Humongous Adventure,,1,3
 Harley's Humongous Adventure,Level 4,1:27,Harley's Humongous Adventure,,1,4
+Harvest Moon,Town,1:42,Harvest Moon,,1,4
+Harvest Moon,Trolls Cave,1:11,Harvest Moon,,1,16
+Harvest Moon: A Wonderful Life,Wonderful Life,1:22,Harvest Moon: A Wonderful Life,,1,1
+Harvest Moon: A Wonderful Life,Song of the Gentle Breeze,1:31,Harvest Moon: A Wonderful Life,,1,3
+Harvest Moon: A Wonderful Life,Song of Silence,1:40,Harvest Moon: A Wonderful Life,,1,4
+Harvest Moon: A Wonderful Life,Excited Pounding,0:43,Harvest Moon: A Wonderful Life,,1,9
+Harvest Moon: A Wonderful Life,Polishing the Tombstone,0:50,Harvest Moon: A Wonderful Life,,1,10
+Harvest Moon: A Wonderful Life,Our Time,0:59,Harvest Moon: A Wonderful Life,,1,11
+Harvest Moon: A Wonderful Life,In Good Spirits,0:49,Harvest Moon: A Wonderful Life,,1,16
+Harvest Moon: A Wonderful Life,Jongara Song,1:19,Harvest Moon: A Wonderful Life,,1,20
+Harvest Moon: A Wonderful Life,Lumina's Theme,1:31,Harvest Moon: A Wonderful Life,,1,25
+Harvest Moon: A Wonderful Life,Let's Have Tea or Something,2:07,Harvest Moon: A Wonderful Life,,1,26
+Harvest Moon: A Wonderful Life,A Pleasure House for Adults,2:05,Harvest Moon: A Wonderful Life,,1,27
+Harvest Moon: A Wonderful Life,Garfan's Blue Bar,0:47,Harvest Moon: A Wonderful Life,,1,28
+Harvest Moon: A Wonderful Life,Home Town Song,0:58,Harvest Moon: A Wonderful Life,,1,29
+Harvest Moon: A Wonderful Life,Jovial Gustafa,1:35,Harvest Moon: A Wonderful Life,,1,33
+Harvest Moon: A Wonderful Life,Farm Theme,1:47,Harvest Moon: A Wonderful Life,,1,37
+Harvest Moon: A Wonderful Life,Gari and Nina's Love,0:56,Harvest Moon: A Wonderful Life,,1,38
+Harvest Moon: A Wonderful Life,Colobockle Mystery Theme,1:17,Harvest Moon: A Wonderful Life,,1,42
+Harvest Moon: A Wonderful Life,Happy!,1:02,Harvest Moon: A Wonderful Life,,1,47
+Harvest Moon: A Wonderful Life,Happy and Fun,0:59,Harvest Moon: A Wonderful Life,,1,48
+Harvest Moon: A Wonderful Life,Flower Buds of Autumn,1:09,Harvest Moon: A Wonderful Life,,1,51
+Harvest Moon: A Wonderful Life,Fluttering Heart,1:31,Harvest Moon: A Wonderful Life,,1,54
+Harvest Moon: A Wonderful Life,Memory of Midsummer,2:17,Harvest Moon: A Wonderful Life,,1,55
+Harvest Moon: A Wonderful Life,Joy of Autumn,4:24,Harvest Moon: A Wonderful Life,,1,56
+Harvest Moon: A Wonderful Life,Winter - HM,2:06,Harvest Moon: A Wonderful Life,,1,57
 Helldivers 2,A Cup of Liber-tea (Helldivers 2 Main Theme),3:36,Helldivers 2,,1,5
 Helldivers 2,Hellpods Primed,3:18,Helldivers 2,,1,4
 Helldivers 2,March of the Helldivers,2:14,Helldivers 2,,1,11
@@ -2269,6 +2455,58 @@ Hollow Knight: Silksong,Repose,1:58,Hollow Knight: Silksong,,1,7
 Hollow Knight: Silksong,Sister Splinter,1:39,Hollow Knight: Silksong,,1,17
 Hollow Knight: Silksong,Strive,3:25,Hollow Knight: Silksong,,1,3
 Hollow Knight: Silksong,Widow,3:44,Hollow Knight: Silksong,,1,15
+Hyrule Warriors: Definitive Edition,Title Screen/Main Menu (LoZ),2:50,Hyrule Warriors: Definitive Edition,,1,1
+Hyrule Warriors: Definitive Edition,Dinosaur Boss Battle (OoT),2:02,Hyrule Warriors: Definitive Edition,,1,12
+Hyrule Warriors: Definitive Edition,Bazaar (SS),1:50,Hyrule Warriors: Definitive Edition,,1,16
+Hyrule Warriors: Definitive Edition,House,1:06,Hyrule Warriors: Definitive Edition,,1,18
+Hyrule Warriors: Definitive Edition,Kakariko Village (TP),1:54,Hyrule Warriors: Definitive Edition,,1,33
+Hyrule Warriors: Definitive Edition,Eclipse of the Sun,3:25,Hyrule Warriors: Definitive Edition,,1,35
+Hyrule Warriors: Definitive Edition,Hammer of Stones,2:19,Hyrule Warriors: Definitive Edition,,1,38
+Hyrule Warriors: Definitive Edition,Hyrule Field (TP),2:14,Hyrule Warriors: Definitive Edition,,1,46
+Hyrule Warriors: Definitive Edition,Silent Guardians,2:14,Hyrule Warriors: Definitive Edition,,1,60
+Hyrule Warriors: Definitive Edition,Psychostorm,1:40,Hyrule Warriors: Definitive Edition,,1,67
+Hyrule Warriors: Definitive Edition,Focal Line,2:18,Hyrule Warriors: Definitive Edition,,1,70
+Hyrule Warriors: Definitive Edition,Eclipse of the Moon,3:01,Hyrule Warriors: Definitive Edition,,1,72
+Hyrule Warriors: Definitive Edition,Temporary Ending,3:17,Hyrule Warriors: Definitive Edition,,1,77
+Hyrule Warriors: Definitive Edition,Sandstream,1:55,Hyrule Warriors: Definitive Edition,,1,80
+Hyrule Warriors: Definitive Edition,Eclipse of the World,2:37,Hyrule Warriors: Definitive Edition,,1,84
+Hyrule Warriors: Definitive Edition,Denouement,1:37,Hyrule Warriors: Definitive Edition,,1,89
+Hyrule Warriors: Definitive Edition,Linkle,2:24,Hyrule Warriors: Definitive Edition,,1,91
+Hyrule Warriors: Definitive Edition,Title & Dragon Roost (WW),1:54,Hyrule Warriors: Definitive Edition,,1,92
+Hyrule Warriors: Definitive Edition,Molgera (WW),3:01,Hyrule Warriors: Definitive Edition,,1,93
+Hyrule Warriors: Definitive Edition,Hard Linked,2:27,Hyrule Warriors: Definitive Edition,,1,94
+Hyrule Warriors: Definitive Edition,Select Scenario - Legend Mode Complete (LoZ),2:50,Hyrule Warriors: Definitive Edition,,1,95
+Hyrule Warriors: Definitive Edition,My Fairy - Dining Room,1:27,Hyrule Warriors: Definitive Edition,,1,108
+Hyrule Warriors: Definitive Edition,Zelda's Lullaby (OoT),1:47,Hyrule Warriors: Definitive Edition,,2,14
+Hyrule Warriors: Definitive Edition,Skyloft (SS),3:47,Hyrule Warriors: Definitive Edition,,2,53
+Hyrule Warriors: Definitive Edition,Hyrule Field:1st,3:14,Hyrule Warriors: Definitive Edition,,3,75
+Hyrule Warriors: Definitive Edition,Solidus Cave,5:22,Hyrule Warriors: Definitive Edition,,3,76
+Ib,"Main Theme ""Memory""",2:27,Ib,,1,1
+Ib,"Prologue ""Prelude in C Minor""",1:23,Ib,,1,2
+Ib,"Corelli La Follia ""Guertena Exhibit""",3:13,Ib,,1,3
+Ib,"Blind Alley ""Garry's Theme""",0:57,Ib,,1,4
+Ib,"Moving Storybook ""Old Doll""",1:29,Ib,,1,5
+Ib,"Times of Sorrow ""Hide and Seek"" or ""Sadness""",1:55,Ib,,1,6
+Ib,"Puppet ""Mary's Theme""",1:44,Ib,,1,8
+Ib,"Game Over ""The Little Doll's Dream""",1:21,Ib,,1,11
+Ib,"Disappearance ""Red/Gray Area""",1:11,Ib,,1,13
+Ib,"Dining Room ""Violet/Brown Area""",1:20,Ib,,1,14
+Ib,"Ending ""Departure""",1:24,Ib,,1,17
+Jak and Daxter: The Precursor Legacy,Sentinel Beach,2:29,Jak and Daxter: The Precursor Legacy,,1,1
+Jak and Daxter: The Precursor Legacy,Sandover Village,2:20,Jak and Daxter: The Precursor Legacy,,1,2
+Jak and Daxter: The Precursor Legacy,Fisherman's Theme,2:04,Jak and Daxter: The Precursor Legacy,,1,5
+Jak and Daxter: The Precursor Legacy,The Temple,2:30,Jak and Daxter: The Precursor Legacy,,1,6
+Jak and Daxter: The Precursor Legacy,Rock Village,2:03,Jak and Daxter: The Precursor Legacy,,1,8
+Jak and Daxter: The Precursor Legacy,Mountain Pass,2:21,Jak and Daxter: The Precursor Legacy,,1,12
+Jak and Daxter: The Precursor Legacy,Klaww Battle,2:14,Jak and Daxter: The Precursor Legacy,,1,13
+Jak and Daxter: The Precursor Legacy,Final Battle,2:13,Jak and Daxter: The Precursor Legacy,,2,2
+Jak and Daxter: The Precursor Legacy,Challenge Theme,1:36,Jak and Daxter: The Precursor Legacy,,2,3
+Jak and Daxter: The Precursor Legacy,End Credits (Alternate),3:57,Jak and Daxter: The Precursor Legacy,,2,4
+Jak and Daxter: The Precursor Legacy,Cutscene Underscore 4,1:09,Jak and Daxter: The Precursor Legacy,,2,9
+Jak and Daxter: The Precursor Legacy,Cutscene Underscore 5,1:23,Jak and Daxter: The Precursor Legacy,,2,10
+Jak and Daxter: The Precursor Legacy,Cutscene Underscore 6,1:45,Jak and Daxter: The Precursor Legacy,,2,11
+Jak and Daxter: The Precursor Legacy,Forest Theme (Unused),2:18,Jak and Daxter: The Precursor Legacy,,2,12
+Jak and Daxter: The Precursor Legacy,Jungle Raver (Demo),2:13,Jak and Daxter: The Precursor Legacy,,2,15
 Kirby 64: The Crystal Shards,Battle Among Comrades - King Dedede,0:56,Kirby 64: The Crystal Shards,,1,12
 Kirby 64: The Crystal Shards,Battle Among Comrades - Waddle Dee,0:33,Kirby 64: The Crystal Shards,,1,12
 Kirby 64: The Crystal Shards,Boss,2:15,Kirby 64: The Crystal Shards,,1,14
@@ -2828,6 +3066,13 @@ Mega Man X,Intro Stage,1:34,Mega Man X,,1,2
 Mega Man X,Zero 1,0:38,Mega Man X,,1,5
 Mega Man X,Zero 2,1:07,Mega Man X,,1,6
 Mega Man X,Armored Armadillo,1:55,Mega Man X,,1,9
+Metal Slug 2,Judgment (Stage 1-1),3:03,Metal Slug 2,,1,4
+Metal Slug 2,Livin on the Deck (Stage 3-1),3:39,Metal Slug 2,,1,9
+Metal Slug 2,"Assault Theme (Boss Theme C, Stage 6-1)",4:19,Metal Slug 2,,1,10
+Metal Slug 2,Back to the China (Stage 4-1),3:14,Metal Slug 2,,1,11
+Metal Slug 2,New Godokin Street (Stage 5-1),1:58,Metal Slug 2,,1,12
+Metal Slug 2,Kiss in the Dark (Stage 5-2),2:20,Metal Slug 2,,1,13
+Metal Slug 2,Final Attack (Stage 6-3),3:21,Metal Slug 2,,1,16
 Metaphor: ReFantazio,The End of the Beginning,0:54,Metaphor: ReFantazio,,1,1
 Metaphor: ReFantazio,Master Tactician,0:38,Metaphor: ReFantazio,,1,2
 Metaphor: ReFantazio,Prelude to a Heroic Tale,2:12,Metaphor: ReFantazio,,1,4
@@ -2895,6 +3140,19 @@ Metroid Prime,Staff Credits,3:11,Metroid Prime,,1,58
 Metroid Prime,End Jingle,0:11,Metroid Prime,,1,59
 Metroid Prime,Mission Results - Record of Samus,6:59,Metroid Prime,,1,60
 Metroid Prime,Tallon Overworld (Deep),7:49,Metroid Prime,,1,61
+NiGHTS Into Dreams...,Dreams Dreams,5:46,NiGHTS Into Dreams...,,1,1
+NiGHTS Into Dreams...,Paternal Horn,2:26,NiGHTS Into Dreams...,,1,7
+NiGHTS Into Dreams...,The Dragon Gave A Loud Scream (Gillwing),1:52,NiGHTS Into Dreams...,,1,9
+NiGHTS Into Dreams...,After The Dream,1:29,NiGHTS Into Dreams...,,1,10
+NiGHTS Into Dreams...,The Amazing Water,2:42,NiGHTS Into Dreams...,,1,12
+NiGHTS Into Dreams...,She Had Long Ears (Puffy),1:51,NiGHTS Into Dreams...,,1,15
+NiGHTS Into Dreams...,Message from Nightopia,1:29,NiGHTS Into Dreams...,,1,19
+NiGHTS Into Dreams...,Take the Snow Train,2:45,NiGHTS Into Dreams...,,1,20
+NiGHTS Into Dreams...,E-LE-KI Sparkle (Klawz),1:52,NiGHTS Into Dreams...,,1,21
+NiGHTS Into Dreams...,Suburban Museum,2:35,NiGHTS Into Dreams...,,1,24
+NiGHTS Into Dreams...,Under Construction,2:37,NiGHTS Into Dreams...,,1,26
+NiGHTS Into Dreams...,NiGHTS and Reala,1:51,NiGHTS Into Dreams...,,1,27
+NiGHTS Into Dreams...,Growing Wings,3:32,NiGHTS Into Dreams...,,1,29
 Ninja Gaiden,The CIA,1:23,Ninja Gaiden,,1,11
 Ninja Gaiden,The Amazing Ryu,1:28,Ninja Gaiden,,1,13
 Ninja Gaiden,Requiem,0:45,Ninja Gaiden,,1,19
@@ -2970,6 +3228,49 @@ Old School RuneScape,Still Night (2004),2:48,Old School RuneScape,,1,0
 Old School RuneScape,Still Night,2:49,Old School RuneScape,,1,0
 Old School RuneScape,Trinity,3:35,Old School RuneScape,,1,0
 Old School RuneScape,Woodland,3:22,Old School RuneScape,,1,0
+Ori and the Will of the Wisps,Main Theme,1:56,Ori and the Will of the Wisps,,1,1
+Ori and the Will of the Wisps,A Yearning for the Sky,3:31,Ori and the Will of the Wisps,,1,3
+Ori and the Will of the Wisps,A Keepsake from the Past,2:22,Ori and the Will of the Wisps,,1,4
+Ori and the Will of the Wisps,Ku's First Flight,2:44,Ori and the Will of the Wisps,,1,5
+Ori and the Will of the Wisps,Separated by the Storm,3:47,Ori and the Will of the Wisps,,1,6
+Ori and the Will of the Wisps,"Now Use the Light, We Want to See!",5:25,Ori and the Will of the Wisps,,1,8
+Ori and the Will of the Wisps,A Shine Upon Inkwater Marsh,3:06,Ori and the Will of the Wisps,,1,9
+Ori and the Will of the Wisps,Overlooking the Mill,3:44,Ori and the Will of the Wisps,,1,10
+Ori and the Will of the Wisps,The Eyes of Kwolok,4:37,Ori and the Will of the Wisps,,1,11
+Ori and the Will of the Wisps,Kwolok's Hollow,4:08,Ori and the Will of the Wisps,,1,12
+Ori and the Will of the Wisps,Dashing and Bashing,4:19,Ori and the Will of the Wisps,,1,14
+Ori and the Will of the Wisps,Sanctuary in the Glades,2:45,Ori and the Will of the Wisps,,1,17
+Ori and the Will of the Wisps,The Ancient Wellspring,2:54,Ori and the Will of the Wisps,,1,18
+Ori and the Will of the Wisps,"Turn, Turn, Turn Again",3:36,Ori and the Will of the Wisps,,1,21
+Ori and the Will of the Wisps,Amelioration,2:09,Ori and the Will of the Wisps,,1,22
+Ori and the Will of the Wisps,Escaping a Foul Presence,2:05,Ori and the Will of the Wisps,,1,23
+Ori and the Will of the Wisps,Reunification,3:05,Ori and the Will of the Wisps,,1,25
+Ori and the Will of the Wisps,Shriek,1:21,Ori and the Will of the Wisps,,1,27
+Ori and the Will of the Wisps,Fading of the Light,4:09,Ori and the Will of the Wisps,,1,28
+Ori and the Will of the Wisps,Mora the Spider,5:57,Ori and the Will of the Wisps,,1,31
+Ori and the Will of the Wisps,The Eyes of the Forest,1:26,Ori and the Will of the Wisps,,1,32
+Ori and the Will of the Wisps,The Darkness Lifted,3:59,Ori and the Will of the Wisps,,1,33
+Ori and the Will of the Wisps,Luma Pools,5:05,Ori and the Will of the Wisps,,1,34
+Ori and the Will of the Wisps,Kwolok's Malaise,3:19,Ori and the Will of the Wisps,,1,35
+Ori and the Will of the Wisps,Resolution in Paradise,4:29,Ori and the Will of the Wisps,,1,37
+Ori and the Will of the Wisps,Midnight Burrows,4:12,Ori and the Will of the Wisps,,1,38
+Ori and the Will of the Wisps,Baur's Reach,5:07,Ori and the Will of the Wisps,,1,39
+Ori and the Will of the Wisps,A Snowy Skirmish,1:17,Ori and the Will of the Wisps,,1,40
+Ori and the Will of the Wisps,In Wonderment of Winter,3:26,Ori and the Will of the Wisps,,1,41
+Ori and the Will of the Wisps,Escape with the Memory of the Forest,1:55,Ori and the Will of the Wisps,,1,43
+Ori and the Will of the Wisps,Shriek's Tale,2:53,Ori and the Will of the Wisps,,1,44
+Ori and the Will of the Wisps,The Windswept Wastes,3:34,Ori and the Will of the Wisps,,1,45
+Ori and the Will of the Wisps,Burrowing,4:17,Ori and the Will of the Wisps,,1,46
+Ori and the Will of the Wisps,Approaching the Ruins,2:13,Ori and the Will of the Wisps,,1,47
+Ori and the Will of the Wisps,The Windtorn Ruins,2:20,Ori and the Will of the Wisps,,1,49
+Ori and the Will of the Wisps,Escaping the Sandworm,2:08,Ori and the Will of the Wisps,,1,51
+Ori and the Will of the Wisps,The Weeping Ridge,3:34,Ori and the Will of the Wisps,,1,52
+Ori and the Will of the Wisps,Unblocking the Way,3:24,Ori and the Will of the Wisps,,1,55
+Ori and the Will of the Wisps,The Spirit Willow,2:54,Ori and the Will of the Wisps,,1,56
+Ori and the Will of the Wisps,Shriek and Ori,6:09,Ori and the Will of the Wisps,,1,57
+Ori and the Will of the Wisps,Remaining in Darkness,1:38,Ori and the Will of the Wisps,,1,58
+Ori and the Will of the Wisps,"Ori, Embracing the Light",3:51,Ori and the Will of the Wisps,,1,60
+Ori and the Will of the Wisps,End Credits (Deluxe Suite),7:28,Ori and the Will of the Wisps,,2,101
 Overcooked!,Main Theme,2:11,Overcooked!,,1,1
 Overcooked!,Triangulum (Final Boss),3:58,Overcooked!,,1,10
 Overcooked!,A Sparkling Wonder,2:22,Overcooked!,,1,13
@@ -3147,6 +3448,29 @@ Persona 5 Royal,So Happy World,3:51,Persona 5 Royal,,1,20
 Persona 5 Royal,Out of Kindness,2:48,Persona 5 Royal,,1,22
 Persona 5 Royal,I Believe,4:28,Persona 5 Royal,,1,23
 Persona 5 Royal,Keep Your Faith,3:40,Persona 5 Royal,,1,24
+Pesterquest,"John's Theme ""sometimes i call andrew hussie 'andy' and so far he hasn't corrected me""",4:34,Pesterquest,,1,2
+Pesterquest,"Rose's Theme ""please support The Trevor Project""",3:19,Pesterquest,,1,3
+Pesterquest,"Tavros' Theme ""Bronze Rebel""",4:13,Pesterquest,,1,3
+Pesterquest,"Dave's Theme ""ill probably just name this one something normal oh no aw beans""",5:18,Pesterquest,,1,4
+Pesterquest,"Dave's Other Theme ""24-7 lo fi anime beats to question your sexuality to""",2:51,Pesterquest,,1,5
+Pesterquest,"Kanaya's Theme ""Darling Kamaya""",2:03,Pesterquest,,1,7
+Pesterquest,"Karkat's Theme ""CRUSTacean""",5:28,Pesterquest,,1,8
+Pesterquest,"Gamzee's Theme ""mIrAcLeS""",2:31,Pesterquest,,1,9
+Pesterquest,"Terezi's Theme ""CH3CK TH3 M3T4D4T4""",3:31,Pesterquest,,1,11
+Pesterquest,"Aradia's Theme ""yeah it is""",5:41,Pesterquest,,1,13
+Pesterquest,"Sollux's Theme ""KWCOM DOT WAV""",5:08,Pesterquest,,1,14
+Pesterquest,"Nepeta's Theme ""Requiem""",4:38,Pesterquest,,1,15
+Pesterquest,"Dirk's Other Theme ""Stress""",2:02,Pesterquest,,1,16
+Pesterquest,"Eridan's Theme ""THIS TIME ITS ERIDAN""",4:13,Pesterquest,,1,16
+Pesterquest,"Feferi's Theme ""Love You""",1:58,Pesterquest,,1,17
+Pesterquest,"Jane's Theme ""i guess""",1:38,Pesterquest,,1,18
+Pesterquest,"Jake's Theme ""Riches to Ruins Movements, pt. II""",2:21,Pesterquest,,1,19
+Pesterquest,"Roxy's Theme ""Would you believe this was for something else""",2:23,Pesterquest,,1,20
+Pesterquest,"Roxy's Other Theme ""Even in Death (TMorra's Belly Mix)""",4:08,Pesterquest,,1,21
+Pesterquest,"Dirk's Theme ""Unite Synchronization""",2:54,Pesterquest,,1,22
+Pesterquest,"Ultimate Dirk's Theme ""Beatup""",5:14,Pesterquest,,1,23
+Pesterquest,"Vriska's Theme ""Superego""",2:58,Pesterquest,,1,28
+Pesterquest,"Eridan vs Sollux ""The La2t Frontiier""",1:50,Pesterquest,,1,41
 Phantasy Star IV: The End of the Millennium,Rune,2:38,Phantasy Star IV: The End of the Millennium,,1,11
 Phantasy Star IV: The End of the Millennium,Defeat at a Blow!,1:11,Phantasy Star IV: The End of the Millennium,,1,14
 Phantasy Star IV: The End of the Millennium,Motavia Town,1:40,Phantasy Star IV: The End of the Millennium,,1,2
@@ -4301,6 +4625,28 @@ Super Metroid,Ending,3:22,Super Metroid,,1,24
 Super Metroid,Brinstar Overgrown with Vegetation Area,3:36,Super Metroid,,1,5
 Super Metroid,Brinstar Red Soil Swampy Area,4:02,Super Metroid,,1,6
 Super Metroid,Theme of Samus Aran ~ Galactic Warrior,4:04,Super Metroid,,1,8
+Super Paper Mario,Wedding Waltz,1:30,Super Paper Mario,,1,3
+Super Paper Mario,Champion of Destruction,2:23,Super Paper Mario,,1,5
+Super Paper Mario,Super Paper Mario,3:26,Super Paper Mario,,1,6
+Super Paper Mario,Flipside,3:22,Super Paper Mario,,1,10
+Super Paper Mario,Lineland Road,2:25,Super Paper Mario,,1,16
+Super Paper Mario,Mount Lineland,2:41,Super Paper Mario,,1,23
+Super Paper Mario,Gloam Valley,2:23,Super Paper Mario,,1,42
+Super Paper Mario,Merlee's Mansion,2:17,Super Paper Mario,,1,45
+Super Paper Mario,The Open Plane [The Bitlands],2:18,Super Paper Mario,,2,2
+Super Paper Mario,Nostalgic Underground [Bitland Underground],1:10,Super Paper Mario,,2,3
+Super Paper Mario,Big Blooper Appears,1:12,Super Paper Mario,,2,6
+Super Paper Mario,Outer Space,2:23,Super Paper Mario,,2,16
+Super Paper Mario,Floro Sapien Caverns,3:17,Super Paper Mario,,2,23
+Super Paper Mario,Sammer's Kingdom,2:27,Super Paper Mario,,2,29
+Super Paper Mario,Battle Time!,2:28,Super Paper Mario,,2,30
+Super Paper Mario,Tilt Island,1:54,Super Paper Mario,,2,41
+Super Paper Mario,Castle Bleck,3:42,Super Paper Mario,,3,15
+Super Paper Mario,The Ultimate Show [Final Battle],2:56,Super Paper Mario,,3,21
+Super Paper Mario,Bounding Through Time,3:46,Super Paper Mario,,3,23
+Super Paper Mario,Proof of Existence,3:41,Super Paper Mario,,3,24
+Super Paper Mario,Staff Roll,3:25,Super Paper Mario,,3,25
+Super Paper Mario,Mini-Game Over (Early),0:44,Super Paper Mario,,3,32
 Super Smash Bros.,Opening,1:17,Super Smash Bros.,,1,01
 Super Smash Bros.,Yoshi's Island Stage,1:56,Super Smash Bros.,,1,10
 Super Smash Bros.,Dream Land Stage,2:14,Super Smash Bros.,,1,11
@@ -4572,13 +4918,13 @@ Super Smash Bros. Melee,Big Blue,3:57,Super Smash Bros. Melee,,1,23
 Super Smash Bros. Melee,Mother,3:52,Super Smash Bros. Melee,,1,24
 Super Smash Bros. Melee,Earthbound,3:54,Super Smash Bros. Melee,,1,25
 Super Smash Bros. Melee,Menu 1,1:57,Super Smash Bros. Melee,,1,3
-Super Smash Bros. Melee,Icicle Mountain ,3:35,Super Smash Bros. Melee,,1,30
+Super Smash Bros. Melee,Icicle Mountain,3:35,Super Smash Bros. Melee,,1,30
 Super Smash Bros. Melee,Flat Zone,3:38,Super Smash Bros. Melee,,1,31
 Super Smash Bros. Melee,Super Mario Bros. 3,3:18,Super Smash Bros. Melee,,1,35
 Super Smash Bros. Melee,Saria's Song,1:17,Super Smash Bros. Melee,,1,36
 Super Smash Bros. Melee,Pokémon Battle!,3:13,Super Smash Bros. Melee,,1,37
 Super Smash Bros. Melee,Fire Emblem,4:08,Super Smash Bros. Melee,,1,38
-Super Smash Bros. Melee,How to Play ,1:44,Super Smash Bros. Melee,,1,4
+Super Smash Bros. Melee,How to Play,1:44,Super Smash Bros. Melee,,1,4
 Super Smash Bros. Melee,Mother 2,3:09,Super Smash Bros. Melee,,1,40
 Super Smash Bros. Melee,Dr. Mario,2:34,Super Smash Bros. Melee,,1,41
 Super Smash Bros. Melee,Balloon Fight,2:00,Super Smash Bros. Melee,,1,42
@@ -4757,6 +5103,14 @@ Super Star Wars,Star Wars Main Theme,1:46,Super Star Wars,,1,3
 Super Star Wars,Desert Journey,1:21,Super Star Wars,,1,5
 Super Star Wars,Urgent News,0:38,Super Star Wars,,1,7
 Super Star Wars,Aerial Combat,1:21,Super Star Wars,,1,8
+Teenage Mutant Ninja Turtles: The Hyperstone Heist,Turtle Swing,1:53,Teenage Mutant Ninja Turtles: The Hyperstone Heist,,1,6
+Teenage Mutant Ninja Turtles: The Hyperstone Heist,Alleycat Blues,1:35,Teenage Mutant Ninja Turtles: The Hyperstone Heist,,1,7
+Teenage Mutant Ninja Turtles: The Hyperstone Heist,Back in the Sewers,1:33,Teenage Mutant Ninja Turtles: The Hyperstone Heist,,1,8
+Teenage Mutant Ninja Turtles: The Hyperstone Heist,Sewers Surfin',1:32,Teenage Mutant Ninja Turtles: The Hyperstone Heist,,1,9
+Teenage Mutant Ninja Turtles: The Hyperstone Heist,The Gauntlet,1:47,Teenage Mutant Ninja Turtles: The Hyperstone Heist,,1,15
+Teenage Mutant Ninja Turtles: The Hyperstone Heist,Star Base,1:41,Teenage Mutant Ninja Turtles: The Hyperstone Heist,,1,17
+Teenage Mutant Ninja Turtles: The Hyperstone Heist,Boss,1:10,Teenage Mutant Ninja Turtles: The Hyperstone Heist,,1,19
+Teenage Mutant Ninja Turtles: The Hyperstone Heist,The Turtles Save the Day,0:33,Teenage Mutant Ninja Turtles: The Hyperstone Heist,,1,23
 Tetris (Game Boy),Type A,2:47,Tetris (Game Boy),,1,3
 Tetris (Game Boy),Type B,2:40,Tetris (Game Boy),,1,4
 Tetris (Game Boy),Type C,2:48,Tetris (Game Boy),,1,5
@@ -4772,7 +5126,7 @@ The Elder Scrolls III: Morrowind,Ambush!,2:35,The Elder Scrolls III: Morrowind,,
 The Elder Scrolls III: Morrowind,Silt Sunrise,3:13,The Elder Scrolls III: Morrowind,,1,11
 The Elder Scrolls III: Morrowind,Shed Your Travails,3:15,The Elder Scrolls III: Morrowind,,1,13
 The Elder Scrolls III: Morrowind,Drumbeat of the Dunmer,2:05,The Elder Scrolls III: Morrowind,,1,14
-The Elder Scrolls III: Morrowind,Caprice ,3:27,The Elder Scrolls III: Morrowind,,1,15
+The Elder Scrolls III: Morrowind,Caprice,3:27,The Elder Scrolls III: Morrowind,,1,15
 The Legend of Zelda,Title BGM,2:43,The Legend of Zelda,,1,1
 The Legend of Zelda,Ending Theme,1:39,The Legend of Zelda,,1,15
 The Legend of Zelda,Overworld BGM,1:14,The Legend of Zelda,,1,2
@@ -4959,6 +5313,7 @@ The Legend of Zelda: Ocarina of Time,Kotake & Koume's Theme,1:34,The Legend of Z
 The Legend of Zelda: Ocarina of Time,Ganondorf Battle,2:23,The Legend of Zelda: Ocarina of Time,,2,30
 The Legend of Zelda: Ocarina of Time,Last Battle,3:08,The Legend of Zelda: Ocarina of Time,,2,32
 The Legend of Zelda: Ocarina of Time,End Credits,7:08,The Legend of Zelda: Ocarina of Time,,2,35
+The Legend of Zelda: Ocarina of Time 3D,End Credits 2,2:36,The Legend of Zelda: Ocarina of Time 3D,,3,1
 The Legend of Zelda: Skyward Sword,Skyloft,3:11,The Legend of Zelda: Skyward Sword,,1,10
 The Legend of Zelda: Skyward Sword,House Theme,1:10,The Legend of Zelda: Skyward Sword,,1,11
 The Legend of Zelda: Skyward Sword,Before the Goddess Statue,0:42,The Legend of Zelda: Skyward Sword,,1,12
@@ -5229,6 +5584,9 @@ ToeJam & Earl,Rapmaster Rocket Racket,3:46,ToeJam & Earl,,1,3
 ToeJam & Earl,Funkotronic Beat,3:30,ToeJam & Earl,,1,4
 ToeJam & Earl,Alien Break Down,3:45,ToeJam & Earl,,1,5
 ToeJam & Earl,ToeJam Slowjam,4:10,ToeJam & Earl,,1,6
+Transistor,Sandbox,3:29,Transistor,,1,16
+Transistor,We All Become,2:29,Transistor,,1,17
+Transistor,Paper Boats,4:00,Transistor,,1,23
 Undertale,Once Upon a Time,1:26,Undertale,,1,1
 Undertale,Ghost Fight,1:48,Undertale,,1,10
 Undertale,MEGALOVANIA,5:17,Undertale,,1,100
