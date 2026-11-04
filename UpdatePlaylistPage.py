@@ -104,7 +104,7 @@ def write_csv(data, output_path):
     print(f"CSV written to {output_path}")
 
 def main():
-    music_path = r"D:\Music\Playlist"
+    music_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "1 - Live Playlist")
     output_csv = "music_library.csv"
     
     if not os.path.exists(music_path):
