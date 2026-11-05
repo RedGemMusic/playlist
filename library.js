@@ -78,7 +78,7 @@ function init(data) {
     shown.urating = shown.user;
     renderChooser();
 
-    $('#updated').textContent = `Updated ${new Date(D.updated).toLocaleString()}`;
+    $("#updated").textContent = `Updated ${new Date(D.updated).toLocaleString()} · refreshed about every 15 minutes`;
     render();
 }
 
