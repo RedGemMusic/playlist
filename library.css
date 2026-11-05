@@ -1,0 +1,81 @@
+/* Same dark palette as the rest of redgemmusic.github.io; the table copies the
+   Fish Log's (minigames/fish/fish.css). */
+:root {
+    --bg: #1a1a1a;
+    --panel: #2a2a2a;
+    --panel-2: #333;
+    --line: #444;
+    --text: #e0e0e0;
+    --muted: #888;
+    --strong: #fff;
+    --accent: #4a9eff;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    padding: 20px 16px 40px;
+    line-height: 1.4;
+}
+
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Wide: Game and Title never wrap, and the longest names need ~1,700 px with every column on. */
+.container { max-width: 1800px; margin: 0 auto; }
+
+.crumbs { font-size: 14px; color: var(--muted); margin-bottom: 14px; }
+.crumbs a { color: var(--muted); }
+.crumbs a:hover { color: var(--strong); text-decoration: none; }
+.crumbs .sep { margin: 0 6px; }
+
+h1 { color: var(--strong); margin-bottom: 20px; }
+
+/* ---- column chooser ---- */
+.columns { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; margin-bottom: 14px; }
+.columns .lbl { color: var(--muted); font-size: 14px; margin-right: 4px; }
+.chip {
+    display: inline-flex; align-items: center; gap: 6px; padding: 5px 12px; font-size: 14px;
+    border: 2px solid var(--panel-2); border-radius: 20px; background: var(--panel); color: var(--muted);
+    cursor: pointer; user-select: none;
+}
+.chip:hover { border-color: var(--accent); }
+.chip.on { color: var(--strong); border-color: var(--accent); }
+.chip input { accent-color: var(--accent); cursor: pointer; }
+
+.info { color: var(--muted); margin-bottom: 10px; font-size: 14px; }
+.updated { margin-top: 30px; color: var(--muted); font-size: 13px; }
+
+/* ---- table ---- */
+/* Phones scroll the table sideways; wide screens keep the heading in view while
+   scrolling down instead. */
+@media (max-width: 960px) { .scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; } }
+@media (min-width: 961px) { .lib thead { position: sticky; top: 0; z-index: 2; } }
+table.lib { width: 100%; min-width: 640px; border-collapse: collapse; background: var(--panel); }
+.lib th { background: var(--panel-2); color: var(--strong); text-align: center; font-weight: 600; padding: 10px; white-space: nowrap; }
+.lib th.sortable { cursor: pointer; user-select: none; }
+.lib th.sortable:hover { color: var(--accent); }
+.lib th .arrow { color: var(--accent); margin-left: 4px; }
+.lib tr.filters th { padding: 6px 10px 10px; border-bottom: 2px solid var(--line); }
+.lib tr.filters input {
+    width: 100%; min-width: 70px; padding: 5px 7px; font-size: 13px; background: var(--panel);
+    color: var(--text); border: 1px solid var(--line); border-radius: 5px; font-family: inherit;
+}
+.lib tr.filters input:focus { outline: none; border-color: var(--accent); }
+.lib tr.filters .range { display: flex; gap: 4px; }
+/* Number columns shrink to their heading (width 1% = as narrow as the content allows),
+   and their min / max boxes split that width; 40 px still fits "max". */
+.lib .c-length, .lib .c-rating, .lib .c-raters, .lib .c-urating { width: 1%; white-space: nowrap; }
+.lib tr.filters .range input { flex: 1 1 0; width: 0; min-width: 40px; }
+/* Every cell is centred vertically (a song's merged cells sit beside its ratings), never horizontally. */
+.lib td { padding: 6px 10px; border-bottom: 1px solid var(--panel-2); vertical-align: middle; text-align: left; }
+/* A song's own ratings share faint lines; a full line starts each song. */
+.lib tbody tr:not(.first) td { border-top: none; }
+.lib tbody tr.first td { border-top: 1px solid var(--line); }
+.lib tbody tr:first-child td { border-top: none; }
+.lib td.c-game, .lib td.c-title, .lib td.c-user { white-space: nowrap; }
+.lib tbody tr.alt td { background: #333; }
+.lib .dim { color: var(--muted); }
