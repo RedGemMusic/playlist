@@ -1,7 +1,7 @@
 'use strict';
-// Music Library page over data/library.json, which UpdatePlaylistPage.py
-// (stream PC) regenerates. Sorting / filtering / merged cells work like the
-// Fish Log on the minigames page.
+// Music Library page over data/library.json, which PublishPlaylist.py (stream
+// PC, every 15 minutes) regenerates. Sorting / filtering / merged cells work like
+// the Fish Log on the minigames page.
 //
 // data/library.json:
 //   users   [name]                       (usernames only, never IDs)
@@ -16,15 +16,16 @@ const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': 
 const fmt = n => Number(n || 0).toLocaleString();
 
 // key, heading, filter kind, on by default. 'urating' turns on/off with 'user'
-// (one "User Ratings" choice for the two columns).
+// (one "User Ratings" choice for the two columns). fill = shares the space the
+// other columns leave (by this weight) until the visitor sets its width.
 const COLS = [
-    { key: 'game', label: 'Game', filter: 'text', ph: 'Game', on: true },
-    { key: 'title', label: 'Title', filter: 'text', ph: 'Title', on: true },
+    { key: 'game', label: 'Game', filter: 'text', ph: 'Game', on: true, fill: 4 },
+    { key: 'title', label: 'Title', filter: 'text', ph: 'Title', on: true, fill: 5 },
     { key: 'length', label: 'Length', filter: 'range', ph: ['min', 'max'], on: true },
-    { key: 'rating', label: 'Community Rating', filter: 'range', ph: ['min', 'max'], on: true },
+    { key: 'rating', label: 'Community Rating', filter: 'range', ph: ['min', 'max'], on: true, rated: true },
     { key: 'raters', label: '# of Ratings', filter: 'range', ph: ['min', 'max'], on: true },
-    { key: 'tags', label: 'Tags', filter: 'text', ph: 'Tag', on: false },
-    { key: 'user', label: 'User', filter: 'text', ph: 'Username', on: false, perRating: true },
+    { key: 'tags', label: 'Tags', filter: 'text', ph: 'Tag', on: false, fill: 3 },
+    { key: 'user', label: 'User', filter: 'text', ph: 'Username', on: false, perRating: true, width: 160 },
     { key: 'urating', label: 'User Rating', filter: 'range', ph: ['min', 'max'], on: false, perRating: true },
 ];
 const CHOICES = [
@@ -37,12 +38,18 @@ const CHOICES = [
     { label: 'User Ratings', keys: ['user', 'urating'] },
 ];
 const STORE = 'playlist.columns.v1';
+const WIDTH_STORE = 'playlist.widths.v1';
 
 let D = null;
 let songs = [];                  // song objects
 const shown = {};                // column key -> visible
 const sortState = { col: null, dir: 1 };
-const filters = {};              // text: key -> string; range: key + '.min' / '.max'
+const filters = {};              // text: key -> string; range: key + '.min' / '.max'; 'rating.state': '' | 'rated' | 'unrated'
+let widths = {};                 // column key -> px the visitor set (dragged); others are automatic
+let lastW = {};                  // column key -> px as last laid out
+
+const load = k => { try { return JSON.parse(localStorage.getItem(k)); } catch (e) { return null; } };
+const save = (k, v) => { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) { /* private mode */ } };
 
 // ------------------------------------------------------------------ load
 
@@ -72,11 +79,20 @@ function init(data) {
         || a.title.localeCompare(b.title) || a.i - b.i);
     order.forEach((s, k) => { s.ord = k; });
 
-    let saved = null;
-    try { saved = JSON.parse(localStorage.getItem(STORE)); } catch (e) { /* private mode */ }
+    const saved = load(STORE);
     for (const c of COLS) shown[c.key] = saved && typeof saved[c.key] === 'boolean' ? saved[c.key] : c.on;
     shown.urating = shown.user;
+    const w = load(WIDTH_STORE);
+    if (w && typeof w === 'object') for (const c of COLS) if (Number.isFinite(w[c.key])) widths[c.key] = Math.max(minWidth(c), w[c.key]);
     renderChooser();
+
+    $('#reset').addEventListener('click', () => {
+        clearTimeout(render.t);
+        for (const k of Object.keys(filters)) delete filters[k];
+        render();
+    });
+    let t = 0;
+    window.addEventListener('resize', () => { clearTimeout(t); t = setTimeout(applyWidths, 100); });
 
     $("#updated").textContent = `Updated ${new Date(D.updated).toLocaleString()} · refreshed about every 15 minutes`;
     render();
@@ -93,7 +109,7 @@ function renderChooser() {
             if (!cb.checked && sortState.col === key) sortState.col = null;
         }
         if (!COLS.some(c => shown[c.key])) { cb.checked = true; for (const key of CHOICES[+cb.dataset.c].keys) shown[key] = true; }
-        try { localStorage.setItem(STORE, JSON.stringify(shown)); } catch (e) { /* private mode */ }
+        save(STORE, shown);
         renderChooser();
         render();
     }));
@@ -101,6 +117,91 @@ function renderChooser() {
 
 const visible = () => COLS.filter(c => shown[c.key]);
 const perRating = () => shown.user || shown.urating;
+
+// ------------------------------------------------------------------ widths
+
+// Heading text is measured, so a column's default and its narrowest are set by
+// its own heading (wider headings, wider columns), whatever font the browser has.
+let ctx = null;
+function textWidth(s) {
+    if (!ctx) {
+        ctx = document.createElement('canvas').getContext('2d');
+        ctx.font = `600 16px ${getComputedStyle(document.body).fontFamily}`;
+    }
+    return Math.ceil(ctx.measureText(s).width);
+}
+const HEAD_PAD = 28 + 16;        // th padding + room for the sort arrow
+const FILTER_MIN = { range: 104, text: 80 };   // two 40 px boxes / one box, plus padding
+
+// Narrowest: the heading may wrap onto lines, but no word may be cut, and the filter must fit.
+function minWidth(c) {
+    const word = Math.max(...c.label.split(' ').map(textWidth));
+    return Math.max(word + HEAD_PAD, FILTER_MIN[c.filter]);
+}
+// Default for a non-fill column: its heading on one line.
+const baseWidth = c => Math.max(c.width || 0, textWidth(c.label) + HEAD_PAD, minWidth(c));
+
+// Columns the visitor sized keep their width; the others take their default, and
+// fill columns share what is left of the page width so nothing is pushed out of sight.
+function layoutWidths(cols) {
+    const avail = $('#library').clientWidth;
+    const w = {};
+    let used = 0, weight = 0;
+    for (const c of cols) {
+        if (widths[c.key] != null) w[c.key] = widths[c.key];
+        else if (c.fill) { weight += c.fill; continue; }
+        else w[c.key] = baseWidth(c);
+        used += w[c.key];
+    }
+    const left = Math.max(0, avail - used);
+    for (const c of cols) if (w[c.key] == null) w[c.key] = Math.max(140, minWidth(c), Math.floor(left * c.fill / weight));
+    return w;
+}
+
+function applyWidths() {
+    const table = $('#library table.lib');
+    if (!table) return;
+    const cols = visible();
+    lastW = layoutWidths(cols);
+    let total = 0;
+    for (const c of cols) {
+        table.querySelector(`col[data-k="${c.key}"]`).style.width = lastW[c.key] + 'px';
+        total += lastW[c.key];
+    }
+    table.style.width = total + 'px';
+}
+
+// Drag a column's right edge to size it; double-click the edge for its automatic width again.
+function startDrag(e) {
+    if (e.button !== 0) return;
+    e.preventDefault();
+    const grip = e.currentTarget, key = grip.dataset.k;
+    const col = COLS.find(c => c.key === key);
+    const x0 = e.clientX, w0 = lastW[key];
+    let x = x0, raf = 0, moved = false;
+    grip.setPointerCapture(e.pointerId);
+    const move = ev => {
+        x = ev.clientX;
+        if (!moved) {
+            if (Math.abs(x - x0) < 3) return;
+            moved = true;
+            document.body.classList.add('resizing');
+            // Only the dragged column may change size: pin the fill columns where they are.
+            for (const c of visible()) if (c.fill && widths[c.key] == null) widths[c.key] = lastW[c.key];
+        }
+        if (!raf) raf = requestAnimationFrame(() => { raf = 0; widths[key] = Math.max(minWidth(col), Math.round(w0 + x - x0)); applyWidths(); });
+    };
+    const up = () => {
+        grip.removeEventListener('pointermove', move);
+        grip.removeEventListener('pointerup', up);
+        grip.removeEventListener('pointercancel', up);
+        document.body.classList.remove('resizing');
+        if (moved) save(WIDTH_STORE, widths);
+    };
+    grip.addEventListener('pointermove', move);
+    grip.addEventListener('pointerup', up);
+    grip.addEventListener('pointercancel', up);
+}
 
 // ------------------------------------------------------------------ rows
 
@@ -135,6 +236,15 @@ function inRange(key, value, parse) {
     return (isNaN(lo) || value >= lo) && (isNaN(hi) || value <= hi);
 }
 
+// Community Rating: "Unrated" shows only songs nobody has rated (min / max don't
+// apply), "Rated" only rated ones, "All" both.
+function ratingOk(s) {
+    const state = filters['rating.state'] || '';
+    if (state === 'unrated') return s.rating == null;
+    if (state === 'rated' && s.rating == null) return false;
+    return inRange('rating', s.rating);
+}
+
 function filterRows(rows) {
     const t = k => shown[k] ? (filters[k] || '').trim().toLowerCase() : '';
     const game = t('game'), title = t('title'), tag = t('tags'), user = t('user');
@@ -143,12 +253,14 @@ function filterRows(rows) {
         (!game || s.gameKey.includes(game)) &&
         (!title || s.titleKey.includes(title)) &&
         (!on('length') || inRange('length', s.length, parseLen)) &&
-        (!on('rating') || inRange('rating', s.rating)) &&
+        (!on('rating') || ratingOk(s)) &&
         (!on('raters') || inRange('raters', s.raters)) &&
         (!tag || s.tagKeys.some(x => x.includes(tag))) &&
         (!user || (rt && rt.userKey.includes(user))) &&
         (!on('urating') || inRange('urating', rt ? rt.r : null)));
 }
+
+const anyFilter = () => Object.values(filters).some(v => v && String(v).trim());
 
 // [missing, value]: missing values sort last in BOTH directions.
 const SORT_KEY = {
@@ -201,9 +313,19 @@ function cellHtml(key, { s, rt }) {
 
 function filterRowHtml(cols) {
     const txt = c => `<input type="text" data-f="${c.key}" value="${esc(filters[c.key] || '')}" placeholder="${c.ph}">`;
-    const rng = c => `<div class="range">` +
-        `<input type="text" inputmode="decimal" data-f="${c.key}.min" value="${esc(filters[c.key + '.min'] || '')}" placeholder="${c.ph[0]}">` +
-        `<input type="text" inputmode="decimal" data-f="${c.key}.max" value="${esc(filters[c.key + '.max'] || '')}" placeholder="${c.ph[1]}"></div>`;
+    const rng = c => {
+        const off = c.rated && filters['rating.state'] === 'unrated' ? ' disabled' : '';
+        let h = `<div class="range">` +
+            `<input type="text" inputmode="decimal" data-f="${c.key}.min" value="${esc(filters[c.key + '.min'] || '')}" placeholder="${c.ph[0]}"${off}>` +
+            `<input type="text" inputmode="decimal" data-f="${c.key}.max" value="${esc(filters[c.key + '.max'] || '')}" placeholder="${c.ph[1]}"${off}></div>`;
+        if (c.rated) {
+            const st = filters['rating.state'] || '';
+            h += `<select data-s="${c.key}.state" title="Rated songs, unrated songs, or both">` +
+                [['', 'All'], ['rated', 'Rated'], ['unrated', 'Unrated']].map(([v, t]) =>
+                    `<option value="${v}"${v === st ? ' selected' : ''}>${t}</option>`).join('') + '</select>';
+        }
+        return h;
+    };
     return '<tr class="filters">' + cols.map(c => `<th class="c-${c.key}">${c.filter === 'range' ? rng(c) : txt(c)}</th>`).join('') + '</tr>';
 }
 
@@ -217,9 +339,10 @@ function render() {
     let start = 0;
     rows.forEach((r, i) => { if (i === 0 || r.s !== rows[i - 1].s) start = i; span[start]++; });
 
-    const head = '<tr>' + cols.map(c => {
+    const head = '<tr class="heads">' + cols.map(c => {
         const on = sortState.col === c.key;
-        return `<th class="sortable c-${c.key}" data-sort="${c.key}">${c.label}${on ? `<span class="arrow">${sortState.dir > 0 ? '▲' : '▼'}</span>` : ''}</th>`;
+        return `<th class="sortable c-${c.key}" data-sort="${c.key}"><span class="lbl">${c.label}${on ? `<span class="arrow">${sortState.dir > 0 ? '▲' : '▼'}</span>` : ''}</span>` +
+            `<span class="grip" data-k="${c.key}" title="Drag to resize · double-click to reset"><i>◂</i><i>▸</i></span></th>`;
     }).join('') + '</tr>' + filterRowHtml(cols);
 
     // Shading alternates per SONG, so a song's merged cells and its rating rows share one shade.
@@ -239,10 +362,13 @@ function render() {
     const nSongs = new Set(rows.map(r => r.s)).size;
     const ratingsInfo = perRating() ? ` · ${fmt(rows.filter(r => r.rt).length)} ratings` : '';
     $('#info').textContent = (nSongs === songs.length ? `Showing ${fmt(songs.length)} songs`
-        : `Showing ${fmt(nSongs)} of ${fmt(songs.length)} songs`) + ratingsInfo + ' · click a heading to sort';
+        : `Showing ${fmt(nSongs)} of ${fmt(songs.length)} songs`) + ratingsInfo + ' · click a heading to sort, drag its edge to resize';
+    $('#reset').disabled = !anyFilter();
 
     const el = $('#library');
-    el.innerHTML = `<div class="scroll"><table class="lib"><thead>${head}</thead><tbody>${body}</tbody></table></div>`;
+    const colgroup = '<colgroup>' + cols.map(c => `<col data-k="${c.key}">`).join('') + '</colgroup>';
+    el.innerHTML = `<div class="scroll"><table class="lib">${colgroup}<thead>${head}</thead><tbody>${body}</tbody></table></div>`;
+    applyWidths();
 
     el.querySelectorAll('th[data-sort]').forEach(th => th.addEventListener('click', () => {
         const c = th.dataset.sort;
@@ -251,7 +377,23 @@ function render() {
         else sortState.col = null;      // third click: back to the library's order
         render();
     }));
-    el.querySelectorAll('[data-f]').forEach(inp => inp.addEventListener('input', () => {
+    el.querySelectorAll('.grip').forEach(g => {
+        g.addEventListener('pointerdown', startDrag);
+        g.addEventListener('click', e => e.stopPropagation());     // never a sort click
+        g.addEventListener('dblclick', e => {
+            e.stopPropagation();
+            delete widths[g.dataset.k];
+            save(WIDTH_STORE, widths);
+            applyWidths();
+        });
+    });
+    el.querySelectorAll('select[data-s]').forEach(sel => sel.addEventListener('change', () => {
+        filters[sel.dataset.s] = sel.value;
+        render();
+        const again = el.querySelector(`select[data-s="${sel.dataset.s}"]`);
+        if (again) again.focus();
+    }));
+    el.querySelectorAll('input[data-f]').forEach(inp => inp.addEventListener('input', () => {
         filters[inp.dataset.f] = inp.value;
         clearTimeout(render.t);
         // Up to ~16,000 rows with User Ratings shown: wait for a pause in typing.

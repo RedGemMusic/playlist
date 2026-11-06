@@ -24,7 +24,6 @@ body {
 a { color: var(--accent); text-decoration: none; }
 a:hover { text-decoration: underline; }
 
-/* Wide: Game and Title never wrap, and the longest names need ~1,700 px with every column on. */
 .container { max-width: 1800px; margin: 0 auto; }
 
 .crumbs { font-size: 14px; color: var(--muted); margin-bottom: 14px; }
@@ -46,7 +45,14 @@ h1 { color: var(--strong); margin-bottom: 20px; }
 .chip.on { color: var(--strong); border-color: var(--accent); }
 .chip input { accent-color: var(--accent); cursor: pointer; }
 
-.info { color: var(--muted); margin-bottom: 10px; font-size: 14px; }
+.toolbar { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 14px; margin-bottom: 10px; }
+.info { color: var(--muted); font-size: 14px; }
+.reset {
+    padding: 4px 12px; font-size: 13px; font-family: inherit; border-radius: 5px; cursor: pointer;
+    background: var(--panel); color: var(--strong); border: 1px solid var(--accent);
+}
+.reset:hover { background: var(--panel-2); }
+.reset:disabled { color: var(--muted); border-color: var(--panel-2); cursor: default; background: var(--panel); }
 .updated { margin-top: 30px; color: var(--muted); font-size: 13px; }
 
 /* ---- table ---- */
@@ -54,28 +60,46 @@ h1 { color: var(--strong); margin-bottom: 20px; }
    scrolling down instead. */
 @media (max-width: 960px) { .scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; } }
 @media (min-width: 961px) { .lib thead { position: sticky; top: 0; z-index: 2; } }
-table.lib { width: 100%; min-width: 640px; border-collapse: collapse; background: var(--panel); }
-.lib th { background: var(--panel-2); color: var(--strong); text-align: center; font-weight: 600; padding: 10px; white-space: nowrap; }
+/* Fixed layout: every column's width comes from its <col> (library.js sets them,
+   and the table's width as their sum), so long names wrap instead of widening the table. */
+table.lib { table-layout: fixed; border-collapse: collapse; background: var(--panel); }
+.lib th { background: var(--panel-2); color: var(--strong); text-align: center; font-weight: 600; padding: 10px 14px; position: relative; }
+/* Faint dividing line at every column edge; in the heading row it carries the resize arrows. */
+.lib th, .lib td { border-right: 1px solid rgba(255, 255, 255, 0.07); }
+.lib tr.heads th { border-right-color: var(--line); }
 .lib th.sortable { cursor: pointer; user-select: none; }
 .lib th.sortable:hover { color: var(--accent); }
 .lib th .arrow { color: var(--accent); margin-left: 4px; }
+/* ◂▸ straddling the column's right edge: drag to resize, double-click to reset. */
+.lib .grip {
+    position: absolute; top: 0; bottom: 0; right: -10px; width: 20px; z-index: 3;
+    display: flex; align-items: center; justify-content: space-between;
+    cursor: col-resize; touch-action: none; color: rgba(255, 255, 255, 0.18); font-size: 9px; font-style: normal;
+}
+.lib .grip i { font-style: normal; width: 9px; text-align: center; }
+.lib th:last-child .grip { right: 0; justify-content: flex-start; }
+.lib th:last-child .grip i + i { display: none; }
+.lib .grip:hover, body.resizing .grip { color: var(--accent); }
+body.resizing, body.resizing * { cursor: col-resize !important; user-select: none; }
 .lib tr.filters th { padding: 6px 10px 10px; border-bottom: 2px solid var(--line); }
 .lib tr.filters input {
-    width: 100%; min-width: 70px; padding: 5px 7px; font-size: 13px; background: var(--panel);
+    width: 100%; min-width: 0; padding: 5px 7px; font-size: 13px; background: var(--panel);
     color: var(--text); border: 1px solid var(--line); border-radius: 5px; font-family: inherit;
 }
-.lib tr.filters input:focus { outline: none; border-color: var(--accent); }
+.lib tr.filters input:focus, .lib tr.filters select:focus { outline: none; border-color: var(--accent); }
+.lib tr.filters input:disabled { opacity: 0.4; }
+.lib tr.filters select {
+    display: block; width: 100%; margin-top: 4px; padding: 4px 5px; font-size: 13px; background: var(--panel);
+    color: var(--text); border: 1px solid var(--line); border-radius: 5px; font-family: inherit; cursor: pointer;
+}
 .lib tr.filters .range { display: flex; gap: 4px; }
-/* Number columns shrink to their heading (width 1% = as narrow as the content allows),
-   and their min / max boxes split that width; 40 px still fits "max". */
-.lib .c-length, .lib .c-rating, .lib .c-raters, .lib .c-urating { width: 1%; white-space: nowrap; }
+/* min / max boxes split their column's width; 40 px still fits "max". */
 .lib tr.filters .range input { flex: 1 1 0; width: 0; min-width: 40px; }
 /* Every cell is centred vertically (a song's merged cells sit beside its ratings), never horizontally. */
-.lib td { padding: 6px 10px; border-bottom: 1px solid var(--panel-2); vertical-align: middle; text-align: left; }
+.lib td { padding: 6px 10px; overflow-wrap: anywhere; border-bottom: 1px solid var(--panel-2); vertical-align: middle; text-align: left; }
 /* A song's own ratings share faint lines; a full line starts each song. */
 .lib tbody tr:not(.first) td { border-top: none; }
 .lib tbody tr.first td { border-top: 1px solid var(--line); }
 .lib tbody tr:first-child td { border-top: none; }
-.lib td.c-game, .lib td.c-title, .lib td.c-user { white-space: nowrap; }
 .lib tbody tr.alt td { background: #333; }
 .lib .dim { color: var(--muted); }
